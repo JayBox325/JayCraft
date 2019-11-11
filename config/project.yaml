@@ -1,4 +1,4 @@
-dateModified: 1573481576
+dateModified: 1573486684
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -18,7 +18,7 @@ sections:
         enabledByDefault: true
         hasUrls: true
         uriFormat: '{slug}'
-        template: /pages/_index
+        template: pages/_index
     structure:
       uid: 634a6d92-d705-4817-8b55-789eb7701252
       maxLevels: null
@@ -36,6 +36,26 @@ sections:
         hasTitleField: true
         titleLabel: Title
         titleFormat: ''
+        sortOrder: 1
+  b6dcff48-9906-46af-add1-70d94f8fa406:
+    name: News
+    handle: news
+    type: channel
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      f1e03893-0fd0-4d36-87b3-4269d461b769:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: 'news/{slug}'
+        template: /pages
+    entryTypes:
+      7e581873-0901-4b52-bc16-187532c325c6:
+        name: News
+        handle: news
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: null
         sortOrder: 1
 siteGroups:
   0029cea0-a61a-4d4c-a01a-bdf995fd1393:

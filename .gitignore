@@ -21,7 +21,6 @@
 /vendor
 
 # CRAFT STORAGE
-/craft/storage/*
 /storage/*
 /public/cpresrouces/
 

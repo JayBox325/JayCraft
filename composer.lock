@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62fdb1d373e2b03fa2900dcf2b38eb8d",
+    "content-hash": "cd7529e192dd96d09f05775962989bcb",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -3119,16 +3119,16 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.18",
+            "version": "4.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/anti-xss.git",
-                "reference": "1a653ec584f680157cfcc587a83e6df63f3b8ff4"
+                "reference": "8acdad8a3ad4c70d04cd6925811b28d06d776ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/1a653ec584f680157cfcc587a83e6df63f3b8ff4",
-                "reference": "1a653ec584f680157cfcc587a83e6df63f3b8ff4",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/8acdad8a3ad4c70d04cd6925811b28d06d776ca1",
+                "reference": "8acdad8a3ad4c70d04cd6925811b28d06d776ca1",
                 "shasum": ""
             },
             "require": {
@@ -3172,7 +3172,7 @@
                 "security",
                 "xss"
             ],
-            "time": "2019-11-10T23:45:48+00:00"
+            "time": "2019-11-11T14:48:30+00:00"
         },
         {
             "name": "voku/arrayy",
@@ -3335,16 +3335,16 @@
         },
         {
             "name": "voku/portable-utf8",
-            "version": "5.4.26",
+            "version": "5.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-utf8.git",
-                "reference": "708c25fd7e460260cf111f034deed117f1ef5173"
+                "reference": "f0bb213b5d8564c2384647e3ca98bc4a55f14c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/708c25fd7e460260cf111f034deed117f1ef5173",
-                "reference": "708c25fd7e460260cf111f034deed117f1ef5173",
+                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/f0bb213b5d8564c2384647e3ca98bc4a55f14c12",
+                "reference": "f0bb213b5d8564c2384647e3ca98bc4a55f14c12",
                 "shasum": ""
             },
             "require": {
@@ -3405,7 +3405,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2019-11-05T02:39:01+00:00"
+            "time": "2019-11-11T14:27:45+00:00"
         },
         {
             "name": "voku/stop-words",
