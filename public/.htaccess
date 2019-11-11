@@ -6,4 +6,18 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} !^/(favicon\.ico|apple-touch-icon.*\.png)$ [NC]
     RewriteRule (.+) index.php?p=$1 [QSA,L]
+
+    # From App URL to your domain
+    # RewriteCond %{HTTP_HOST} ^.*\.frb\.io$ [NC]
+    # RewriteRule .* https://www.jaycraft.com%{REQUEST_URI} [r=301,L,N]
+
+    # Force HTTPS
+    RewriteCond %{HTTP_HOST} ^jaycraft\.com$ [NC]
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,NE,R=301]
+
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>

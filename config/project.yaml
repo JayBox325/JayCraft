@@ -1,0 +1,64 @@
+dateModified: 1573481576
+email:
+  fromEmail: hello@jaycollett.co
+  fromName: JayCraft
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  9d0976d6-6ff8-4790-9e75-5bb37d331d19:
+    name: Common
+sections:
+  3a95c5ae-691b-45a9-af63-804ec4f32d8f:
+    name: Pages
+    handle: pages
+    type: structure
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      f1e03893-0fd0-4d36-87b3-4269d461b769:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: '{slug}'
+        template: /pages/_index
+    structure:
+      uid: 634a6d92-d705-4817-8b55-789eb7701252
+      maxLevels: null
+    entryTypes:
+      4e1ae64b-e8c5-47c3-bb58-10fb18e8b8a7:
+        name: Homepage
+        handle: homepage
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 2
+      bcd353ce-367b-47be-853c-bf1f11d42dc0:
+        name: 'Standard content'
+        handle: standardContent
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: ''
+        sortOrder: 1
+siteGroups:
+  0029cea0-a61a-4d4c-a01a-bdf995fd1393:
+    name: JayCraft
+sites:
+  f1e03893-0fd0-4d36-87b3-4269d461b769:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-GB
+    name: JayCraft
+    primary: true
+    siteGroup: 0029cea0-a61a-4d4c-a01a-bdf995fd1393
+    sortOrder: 1
+system:
+  edition: solo
+  name: JayCraft
+  live: true
+  schemaVersion: 3.3.3
+  timeZone: America/Los_Angeles
+users:
+  requireEmailVerification: true
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoVolumeUid: null
+  photoSubpath: ''
