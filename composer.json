@@ -1,7 +1,8 @@
 {
   "name": "jaybox325/jaycraft",
   "description": "Craft boilerplate to work with JayBox325/JayPack",
-  "version": "1.0.2",
+  "version": "1.0.4",
+  "type": "project",
   "require": {
     "craftcms/cms": "^3.0.0",
     "vlucas/phpdotenv": "^3.4.0",
