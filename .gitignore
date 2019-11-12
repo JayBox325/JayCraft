@@ -21,13 +21,11 @@
 /vendor
 
 # CRAFT STORAGE
-/craft/storage/*
 /storage/*
 /public/cpresrouces/
 
 # ASSETS
 /public/uploads/*
-/web/assets/*
 
 # IMAGER TRANSFORMS
 /public/imager/*

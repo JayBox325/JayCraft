@@ -1,4 +1,4 @@
-dateModified: 1573481576
+dateModified: 1573490556
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -6,6 +6,86 @@ email:
 fieldGroups:
   9d0976d6-6ff8-4790-9e75-5bb37d331d19:
     name: Common
+plugins:
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.1.0
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  defaulttab:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      tabTitle: Content
+      hasTitleField: '1'
+      defaultGroups: false
+  entry-count:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  entry-instructions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  relabel:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
+  similar:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  slug-alert:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      pluginIsActive: '1'
+      alertMessage: 'Changing a slug can have a potentially negative effect on your site''s SEO and any bookmarked links. Create a redirect after changing a slug, or don''t change the slug at all.'
+  snitch:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  stretch:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  supersort:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0.0
+  tag-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 sections:
   3a95c5ae-691b-45a9-af63-804ec4f32d8f:
     name: Pages
@@ -18,7 +98,7 @@ sections:
         enabledByDefault: true
         hasUrls: true
         uriFormat: '{slug}'
-        template: /pages/_index
+        template: pages/_index
     structure:
       uid: 634a6d92-d705-4817-8b55-789eb7701252
       maxLevels: null
@@ -36,6 +116,26 @@ sections:
         hasTitleField: true
         titleLabel: Title
         titleFormat: ''
+        sortOrder: 1
+  b6dcff48-9906-46af-add1-70d94f8fa406:
+    name: News
+    handle: news
+    type: channel
+    enableVersioning: true
+    propagationMethod: all
+    siteSettings:
+      f1e03893-0fd0-4d36-87b3-4269d461b769:
+        enabledByDefault: true
+        hasUrls: true
+        uriFormat: 'news/{slug}'
+        template: /pages
+    entryTypes:
+      7e581873-0901-4b52-bc16-187532c325c6:
+        name: News
+        handle: news
+        hasTitleField: true
+        titleLabel: Title
+        titleFormat: null
         sortOrder: 1
 siteGroups:
   0029cea0-a61a-4d4c-a01a-bdf995fd1393:

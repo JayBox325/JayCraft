@@ -4,8 +4,107 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62fdb1d373e2b03fa2900dcf2b38eb8d",
+    "content-hash": "acb5147ca6780d8a4abd855e6cdfd0f2",
     "packages": [
+        {
+            "name": "adigital/cookie-consent-banner",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a-digital/cookie-consent-banner.git",
+                "reference": "26d3dc1a2b961e7b5610f84ccd785f9d50478bc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a-digital/cookie-consent-banner/zipball/26d3dc1a2b961e7b5610f84ccd785f9d50478bc3",
+                "reference": "26d3dc1a2b961e7b5610f84ccd785f9d50478bc3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Cookie Consent Banner",
+                "handle": "cookie-consent-banner",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://github.com/a-digital/cookie-consent-banner/blob/master/CHANGELOG.md",
+                "class": "adigital\\cookieconsentbanner\\CookieConsentBanner"
+            },
+            "autoload": {
+                "psr-4": {
+                    "adigital\\cookieconsentbanner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark @ A Digital",
+                    "homepage": "https://adigital.agency"
+                }
+            ],
+            "description": "Add a configurable cookie consent banner to the website.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "cookie consent banner",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2019-07-25T08:56:36+00:00"
+        },
+        {
+            "name": "anubarak/craft-relabel",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Anubarak/craft-relabel.git",
+                "reference": "34c13706937c94f841ef48f62e6c5c223e93a3a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Anubarak/craft-relabel/zipball/34c13706937c94f841ef48f62e6c5c223e93a3a3",
+                "reference": "34c13706937c94f841ef48f62e6c5c223e93a3a3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.20"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Relabel",
+                "handle": "relabel",
+                "class": "anubarak\\relabel\\Relabel"
+            },
+            "autoload": {
+                "psr-4": {
+                    "anubarak\\relabel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Schambach",
+                    "homepage": "https://github.com/Anubarak"
+                }
+            ],
+            "description": "Relabel Plugin Craft",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "relabel"
+            ],
+            "time": "2019-10-01T06:12:55+00:00"
+        },
         {
             "name": "cebe/markdown",
             "version": "1.2.1",
@@ -507,6 +606,54 @@
             "time": "2019-05-23T13:16:39+00:00"
         },
         {
+            "name": "craftcms/redactor",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/redactor.git",
+                "reference": "8fd0daca685309ad8635f28dca8c9ab2b3f228d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/8fd0daca685309ad8635f28dca8c9ab2b3f228d4",
+                "reference": "8fd0daca685309ad8635f28dca8c9ab2b3f228d4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.2.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "documentationUrl": "https://github.com/craftcms/redactor/blob/v2/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "Redactor",
+                "cms",
+                "craftcms",
+                "html",
+                "yii2"
+            ],
+            "time": "2019-09-13T11:02:32+00:00"
+        },
+        {
             "name": "craftcms/server-check",
             "version": "1.1.7",
             "source": {
@@ -772,6 +919,95 @@
             ],
             "description": "An SVG sanitizer for PHP",
             "time": "2018-10-01T17:11:02+00:00"
+        },
+        {
+            "name": "ether/seo",
+            "version": "3.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethercreative/seo.git",
+                "reference": "97d036bb3c887131cd3d784ac35770c6f7780173"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethercreative/seo/zipball/97d036bb3c887131cd3d784ac35770c6f7780173",
+                "reference": "97d036bb3c887131cd3d784ac35770c6f7780173",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.2.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "seo",
+                "name": "SEO",
+                "developer": "Ether Creative",
+                "developerUrl": "https://ethercreative.co.uk",
+                "class": "ether\\seo\\Seo"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ether\\seo\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "SEO utilities including a unique field type, sitemap, & redirect manager",
+            "support": {
+                "issues": "https://github.com/ethercreative/seo",
+                "docs": "https://github.com/ethercreative/seo/blob/v3/README.md"
+            },
+            "time": "2019-08-05T11:00:38+00:00"
+        },
+        {
+            "name": "ether/tags",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethercreative/tags.git",
+                "reference": "cb8038bf257f40229f1e5763f61c88a6608e85c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethercreative/tags/zipball/cb8038bf257f40229f1e5763f61c88a6608e85c5",
+                "reference": "cb8038bf257f40229f1e5763f61c88a6608e85c5",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC17"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Tags",
+                "handle": "tag-manager",
+                "changelogUrl": "https://raw.githubusercontent.com/ethercreative/tags/master/CHANGELOG.md",
+                "class": "ether\\tagManager\\TagManager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ether\\tagManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ether Creative",
+                    "homepage": "https://ethercreative.co.uk"
+                }
+            ],
+            "description": "A tag manager for Craft 3",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "tags"
+            ],
+            "time": "2019-06-26T12:04:24+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -1226,6 +1462,61 @@
             "time": "2018-11-22T18:33:57+00:00"
         },
         {
+            "name": "marionnewlevant/snitch",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marionnewlevant/craft-snitch.git",
+                "reference": "bcd40da2c1383f5ecf6a87c2ddb6493288dbbaa3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marionnewlevant/craft-snitch/zipball/bcd40da2c1383f5ecf6a87c2ddb6493288dbbaa3",
+                "reference": "bcd40da2c1383f5ecf6a87c2ddb6493288dbbaa3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Snitch",
+                "handle": "snitch",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "documentationUrl": "https://github.com/marionnewlevant/craft-snitch/blob/v2/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/marionnewlevant/craft-snitch/v2/CHANGELOG.md",
+                "components": {
+                    "collision": "marionnewlevant\\snitch\\services\\Collision"
+                },
+                "class": "marionnewlevant\\snitch\\Snitch"
+            },
+            "autoload": {
+                "psr-4": {
+                    "marionnewlevant\\snitch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marion Newlevant",
+                    "homepage": "http://marion.newlevant.com"
+                }
+            ],
+            "description": "Report when two people might be editing the same element (eg entry, category, or global) or field",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "snitch"
+            ],
+            "time": "2019-06-03T01:24:07+00:00"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.7.0",
             "source": {
@@ -1382,6 +1673,58 @@
             "time": "2019-09-15T07:36:45+00:00"
         },
         {
+            "name": "mmikkel/cp-field-inspect",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmikkel/CpFieldInspect-Craft.git",
+                "reference": "1a35bcef471e35f04dda910067b210611daf8a75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmikkel/CpFieldInspect-Craft/zipball/1a35bcef471e35f04dda910067b210611daf8a75",
+                "reference": "1a35bcef471e35f04dda910067b210611daf8a75",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "CP Field Inspect",
+                "handle": "cp-field-inspect",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/mmikkel/CpFieldInspect-Craft/master/CHANGELOG.md",
+                "class": "mmikkel\\cpfieldinspect\\CpFieldInspect"
+            },
+            "autoload": {
+                "psr-4": {
+                    "mmikkel\\cpfieldinspect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mats Mikkel Rummelhoff",
+                    "homepage": "http://mmikkel.no"
+                }
+            ],
+            "description": "Inspect field handles and easily edit field settings",
+            "keywords": [
+                "Craft",
+                "cms",
+                "cp field inspect",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2019-10-21T20:02:05+00:00"
+        },
+        {
             "name": "mundschenk-at/php-typography",
             "version": "v6.5.1",
             "source": {
@@ -1442,6 +1785,105 @@
             ],
             "description": "A PHP library for improving your web typography",
             "time": "2019-07-08T19:56:14+00:00"
+        },
+        {
+            "name": "nilsenpaul/slug-alert",
+            "version": "1.0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nilsenpaul/craft-slug-alert.git",
+                "reference": "529fac46d1a6495775e3d2ddda0c05ffeec44b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nilsenpaul/craft-slug-alert/zipball/529fac46d1a6495775e3d2ddda0c05ffeec44b50",
+                "reference": "529fac46d1a6495775e3d2ddda0c05ffeec44b50",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "slug-alert",
+                "name": "Slug alert",
+                "hasSettings": true,
+                "documentationUrl": "https://github.com/nilsenpaul/craft-slug-alert/blob/master/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nilsenpaul\\slugalert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Verheul",
+                    "homepage": "https://nilsenpaul.nl"
+                }
+            ],
+            "description": "Warn your editors about the potentially negative side effects of changing slugs",
+            "time": "2019-04-23T18:40:48+00:00"
+        },
+        {
+            "name": "nystudio107/craft-similar",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-similar.git",
+                "reference": "e9b9be013e35d0548ca7fa91c2d404f9d6250ebe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-similar/zipball/e9b9be013e35d0548ca7fa91c2d404f9d6250ebe",
+                "reference": "e9b9be013e35d0548ca7fa91c2d404f9d6250ebe",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Similar",
+                "handle": "similar",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-similar/v1/CHANGELOG.md",
+                "components": {
+                    "similar": "nystudio107\\similar\\services\\Similar"
+                },
+                "class": "nystudio107\\similar\\Similar"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\similar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107.com",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "Similar for Craft lets you find elements, Entries, Categories, Commerce Products, etc, that are similar, based on... other related elements.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "elements",
+                "relations",
+                "similar"
+            ],
+            "time": "2019-04-20T20:18:37+00:00"
         },
         {
             "name": "nystudio107/craft-typogrify",
@@ -1560,6 +2002,52 @@
                 "serialize"
             ],
             "time": "2019-10-19T18:38:51+00:00"
+        },
+        {
+            "name": "ostark/craft-plugin-commands",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ostark/craft-plugin-commands.git",
+                "reference": "8650c277cdbbc18797e3ed50884ebdb385597645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ostark/craft-plugin-commands/zipball/8650c277cdbbc18797e3ed50884ebdb385597645",
+                "reference": "8650c277cdbbc18797e3ed50884ebdb385597645",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "ostark\\PluginCommands\\BootstrapPluginCommands"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ostark\\PluginCommands\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Stark",
+                    "homepage": "https://www.fortrabbit.com"
+                }
+            ],
+            "description": "Manage Craft plugins from the cli",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craftcms",
+                "plugins",
+                "yii2-extension"
+            ],
+            "time": "2018-08-13T12:12:26+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1962,6 +2450,48 @@
             "time": "2019-11-01T11:05:21+00:00"
         },
         {
+            "name": "putyourlightson/craft-entry-count",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/putyourlightson/craft-entry-count.git",
+                "reference": "cdd20e8d0d0252eb3e045b8746af1e44ce98554a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/putyourlightson/craft-entry-count/zipball/cdd20e8d0d0252eb3e045b8746af1e44ce98554a",
+                "reference": "cdd20e8d0d0252eb3e045b8746af1e44ce98554a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Entry Count",
+                "handle": "entry-count",
+                "developer": "PutYourLightsOn",
+                "developerUrl": "https://www.putyourlightson.net/",
+                "schemaVersion": "2.0.0",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-entry-count/v2/CHANGELOG.md",
+                "class": "putyourlightson\\entrycount\\EntryCount"
+            },
+            "autoload": {
+                "psr-4": {
+                    "putyourlightson\\entrycount\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Counts and displays the number of times that an entry has been viewed.",
+            "homepage": "https://www.putyourlightson.net/craft-entry-count",
+            "time": "2019-01-19T13:05:12+00:00"
+        },
+        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -2000,6 +2530,144 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "richhayler/stretch",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richhayler/stretch.git",
+                "reference": "fb961bc951582a179bdd6d705a471c7bd77fdaca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/richhayler/stretch/zipball/fb961bc951582a179bdd6d705a471c7bd77fdaca",
+                "reference": "fb961bc951582a179bdd6d705a471c7bd77fdaca",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Stretch",
+                "handle": "stretch",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/richhayler/stretch/master/CHANGELOG.md",
+                "class": "richhayler\\stretch\\Stretch"
+            },
+            "autoload": {
+                "psr-4": {
+                    "richhayler\\stretch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Rich Hayler",
+                    "homepage": "https://www.richhayler.com/"
+                }
+            ],
+            "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "collapse control panel navigation",
+                "control panel",
+                "craft-plugin",
+                "craftcms",
+                "navigation"
+            ],
+            "time": "2019-06-10T06:15:40+00:00"
+        },
+        {
+            "name": "sabberworm/php-css-parser",
+            "version": "8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "codacy/coverage": "^1.4",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabberworm\\CSS": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raphael Schweikert"
+                }
+            ],
+            "description": "Parser for CSS Files written in PHP",
+            "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+            "keywords": [
+                "css",
+                "parser",
+                "stylesheet"
+            ],
+            "time": "2019-02-22T07:42:52+00:00"
+        },
+        {
+            "name": "sebastianlenz/linkfield",
+            "version": "1.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastian-lenz/craft-linkfield.git",
+                "reference": "136c7fcc221d8f53ef903be215f2929a19218a69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastian-lenz/craft-linkfield/zipball/136c7fcc221d8f53ef903be215f2929a19218a69",
+                "reference": "136c7fcc221d8f53ef903be215f2929a19218a69",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "typedlinkfield",
+                "name": "Typed link field",
+                "developer": "Sebastian Lenz",
+                "developerUrl": "https://github.com/sebastian-lenz/"
+            },
+            "autoload": {
+                "psr-4": {
+                    "typedlinkfield\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Craft field type for selecting links",
+            "time": "2019-04-29T12:35:50+00:00"
         },
         {
             "name": "seld/cli-prompt",
@@ -2141,6 +2809,104 @@
                 "phra"
             ],
             "time": "2015-10-13T18:44:15+00:00"
+        },
+        {
+            "name": "studioespresso/defaulttab",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studioespresso/craft3-defaulttab.git",
+                "reference": "c234910c7e9470f9ce44b68b70d7038ee95112ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studioespresso/craft3-defaulttab/zipball/c234910c7e9470f9ce44b68b70d7038ee95112ca",
+                "reference": "c234910c7e9470f9ce44b68b70d7038ee95112ca",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Default Tab",
+                "handle": "defaulttab",
+                "class": "studioespresso\\defaulttab\\DefaultTab"
+            },
+            "autoload": {
+                "psr-4": {
+                    "studioespresso\\defaulttab\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Studio Espresso",
+                    "homepage": "https://studioespresso.co"
+                }
+            ],
+            "description": "Add a standard tab to your new sections",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "utility",
+                "yii2"
+            ],
+            "time": "2018-09-03T09:40:08+00:00"
+        },
+        {
+            "name": "superbig/craft-entry-instructions",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sjelfull/craft-entry-instructions.git",
+                "reference": "a1a1e26edcaf8acdf87060993ce77e7569ccc4e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sjelfull/craft-entry-instructions/zipball/a1a1e26edcaf8acdf87060993ce77e7569ccc4e6",
+                "reference": "a1a1e26edcaf8acdf87060993ce77e7569ccc4e6",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1",
+                "sabberworm/php-css-parser": "^8.2.0|^8.1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Entry Instructions",
+                "handle": "entry-instructions",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft-entry-instructions/master/CHANGELOG.md",
+                "class": "superbig\\entryinstructions\\EntryInstructions"
+            },
+            "autoload": {
+                "psr-4": {
+                    "superbig\\entryinstructions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Superbig",
+                    "homepage": "https://superbig.co"
+                }
+            ],
+            "description": "A simple fieldtype to add instructions",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "entry instructions",
+                "fieldtype"
+            ],
+            "time": "2019-10-15T20:38:41+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2948,6 +3714,68 @@
             "time": "2017-07-23T12:43:26+00:00"
         },
         {
+            "name": "topshelfcraft/supersort",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TopShelfCraft/SuperSort.git",
+                "reference": "8e3e23e30b49a9fbb285e6b2dd0b458de74e340d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TopShelfCraft/SuperSort/zipball/8e3e23e30b49a9fbb285e6b2dd0b458de74e340d",
+                "reference": "8e3e23e30b49a9fbb285e6b2dd0b458de74e340d",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC3"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "SuperSort",
+                "handle": "supersort",
+                "developer": "Top Shelf Craft (Michael Rog)",
+                "developerUrl": "https://topshelfcraft.com",
+                "schemaVersion": "0.0.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://github.com/TopShelfCraft/SuperSort/raw/master/CHANGELOG.md",
+                "components": {
+                    "sorter": "topshelfcraft\\supersort\\services\\Sorter"
+                },
+                "class": "topshelfcraft\\supersort\\SuperSort"
+            },
+            "autoload": {
+                "psr-4": {
+                    "topshelfcraft\\supersort\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Top Shelf Craft (Michael Rog)",
+                    "homepage": "https://topshelfcraft.com"
+                },
+                {
+                    "name": "TJ Draper",
+                    "homepage": "https://buzzingpixel.com"
+                }
+            ],
+            "description": "...a super-duper sorting function for your Craft templates.",
+            "keywords": [
+                "Craft",
+                "SuperSort",
+                "array",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "list",
+                "sort",
+                "sorting"
+            ],
+            "time": "2017-12-24T07:18:11+00:00"
+        },
+        {
             "name": "true/punycode",
             "version": "v2.1.1",
             "source": {
@@ -3061,6 +3889,113 @@
             "time": "2019-10-17T07:34:53+00:00"
         },
         {
+            "name": "vaersaagod/matrixmate",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaersaagod/matrixmate.git",
+                "reference": "176a55728ae7925e152bb75e8613bf9035a95295"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaersaagod/matrixmate/zipball/176a55728ae7925e152bb75e8613bf9035a95295",
+                "reference": "176a55728ae7925e152bb75e8613bf9035a95295",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "MatrixMate",
+                "handle": "matrixmate",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/vaersaagod/matrixmate/master/CHANGELOG.md",
+                "class": "vaersaagod\\matrixmate\\MatrixMate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vaersaagod\\matrixmate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Værsågod",
+                    "homepage": "https://vaersaagod.no"
+                }
+            ],
+            "description": "Welding Matrix into shape, mate!",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "matrixmate"
+            ],
+            "time": "2019-09-29T10:46:41+00:00"
+        },
+        {
+            "name": "verbb/cp-nav",
+            "version": "2.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/cp-nav.git",
+                "reference": "f4667899e78363eeeb75ca57ee62da72e2d126c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/cp-nav/zipball/f4667899e78363eeeb75ca57ee62da72e2d126c3",
+                "reference": "f4667899e78363eeeb75ca57ee62da72e2d126c3",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Control Panel Nav",
+                "handle": "cp-nav",
+                "description": "Control Panel Nav helps you managing your Control Panel navigation.",
+                "schemaVersion": "2.0.0",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "documentationUrl": "https://github.com/verbb/cp-nav",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/cp-nav/craft-3/CHANGELOG.md",
+                "class": "verbb\\cpnav\\CpNav"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\cpnav\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "http://verbb.io"
+                }
+            ],
+            "description": "Control Panel Nav is a Craft CMS plugin to help manage your Control Panel navigation.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "control panel nav",
+                "control panel navigation",
+                "cp nav",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "time": "2018-11-10T03:25:58+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.0",
             "source": {
@@ -3119,16 +4054,16 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.18",
+            "version": "4.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/anti-xss.git",
-                "reference": "1a653ec584f680157cfcc587a83e6df63f3b8ff4"
+                "reference": "8acdad8a3ad4c70d04cd6925811b28d06d776ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/1a653ec584f680157cfcc587a83e6df63f3b8ff4",
-                "reference": "1a653ec584f680157cfcc587a83e6df63f3b8ff4",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/8acdad8a3ad4c70d04cd6925811b28d06d776ca1",
+                "reference": "8acdad8a3ad4c70d04cd6925811b28d06d776ca1",
                 "shasum": ""
             },
             "require": {
@@ -3172,7 +4107,7 @@
                 "security",
                 "xss"
             ],
-            "time": "2019-11-10T23:45:48+00:00"
+            "time": "2019-11-11T14:48:30+00:00"
         },
         {
             "name": "voku/arrayy",
@@ -3335,16 +4270,16 @@
         },
         {
             "name": "voku/portable-utf8",
-            "version": "5.4.26",
+            "version": "5.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-utf8.git",
-                "reference": "708c25fd7e460260cf111f034deed117f1ef5173"
+                "reference": "f0bb213b5d8564c2384647e3ca98bc4a55f14c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/708c25fd7e460260cf111f034deed117f1ef5173",
-                "reference": "708c25fd7e460260cf111f034deed117f1ef5173",
+                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/f0bb213b5d8564c2384647e3ca98bc4a55f14c12",
+                "reference": "f0bb213b5d8564c2384647e3ca98bc4a55f14c12",
                 "shasum": ""
             },
             "require": {
@@ -3405,7 +4340,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2019-11-05T02:39:01+00:00"
+            "time": "2019-11-11T14:27:45+00:00"
         },
         {
             "name": "voku/stop-words",
