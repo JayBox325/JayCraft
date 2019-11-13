@@ -1,0 +1,76 @@
+<div class="form-item{% if type == 'hidden' %} form-item--hidden{% endif %}{% if isValid != true %} error{% endif %}">
+    {% if label %}
+        <label for="{{ id }}" class="form-label">
+            {{ label }}{% if type != 'search' %}{% if optional %} (optional){% else %} (required){% endif %}{% endif %}
+        </label>
+    {% endif %}
+    {% if helptext %}
+        <div class="form-helptext">{{ helptext }}</div>
+    {% endif %}
+    <div class="form-field">
+        <input
+            type="{{ type }}"
+            id="{{ id }}"
+            name="{{ name }}"
+            {{ size ? 'maxlength="' ~ size ~ '"' }}
+            {% if data %}
+                {% for dataItem in data %}
+                    data-{{dataItem.id}}="{{ dataItem.value }}"
+                {% endfor %}
+            {% endif %}
+            {{ placeholder ? 'placeholder="' ~ placeholder ~ '"' }}
+            {{ pattern ? 'pattern="' ~ pattern ~ '"' }}
+            {{ optional ? '' : 'required aria-required="true"' }}
+            class="form-field__input form-field__input--base"
+            value="{{ value }}"
+        />
+    </div>
+    {% if error|length %}
+        <span class="form-error">{{ error }}</span>
+    {% endif %}
+    {% if success|length %}
+        <span class="form-success">{{ success }}</span>
+    {% endif %}
+</div> #}
+
+
+{# {% set type = type ?? 'text' %}
+{% set error = error ?? '' %}
+{% set name = name ?? id %}
+{% set pattern = pattern ?? '' %}
+{% set isValid = isValid ?? true %}
+
+<div class="form-item{% if type == 'hidden' %} form-item--hidden{% endif %}{% if isValid != true %} error{% endif %}">
+    {% if label %}
+        <label for="{{ id }}" class="form-label">
+            {{ label }}{% if type != 'search' %}{% if optional %} (optional){% else %} (required){% endif %}{% endif %}
+        </label>
+    {% endif %}
+    {% if helptext %}
+        <div class="form-helptext">{{ helptext }}</div>
+    {% endif %}
+    <div class="form-field">
+        <input
+            type="{{ type }}"
+            id="{{ id }}"
+            name="{{ name }}"
+            {{ size ? 'maxlength="' ~ size ~ '"' }}
+            {% if data %}
+                {% for dataItem in data %}
+                    data-{{dataItem.id}}="{{ dataItem.value }}"
+                {% endfor %}
+            {% endif %}
+            {{ placeholder ? 'placeholder="' ~ placeholder ~ '"' }}
+            {{ pattern ? 'pattern="' ~ pattern ~ '"' }}
+            {{ optional ? '' : 'required aria-required="true"' }}
+            class="form-field__input form-field__input--base"
+            value="{{ value }}"
+        />
+    </div>
+    {% if error|length %}
+        <span class="form-error">{{ error }}</span>
+    {% endif %}
+    {% if success|length %}
+        <span class="form-success">{{ success }}</span>
+    {% endif %}
+</div> #}

@@ -12,7 +12,6 @@
     "ether/tags": "^1.0",
     "marionnewlevant/snitch": "^3.0",
     "mmikkel/cp-field-inspect": "^1.0",
-    "nilsenpaul/slug-alert": "1.0.0.1",
     "nystudio107/craft-similar": "^1.0",
     "nystudio107/craft-typogrify": "^1.1.1",
     "ostark/craft-plugin-commands": "^1.1",
