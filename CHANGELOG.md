@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.6 -- NOT RELEASED
 ### Added
 - MAMP Database export command to general config.
+- SVG symbols base template & include
+- Form templates
+
+### Changed
+- Base file head markup
 
 ## 1.0.5
 ### Added

@@ -1,0 +1,20 @@
+{% set class = class ?? '' %}
+{% set btnTheme = btnTheme ?? 'blue' %}
+
+<form class="{{ class }}">
+    {% include 'form/forms/' ~ form with {
+        btnTheme: btnTheme
+    } %}
+</form>
+
+
+{#
+
+    Include with:
+
+    {% include 'forms/_index' with {
+        form: form-name,
+        btnTheme: btn-theme
+    } %}
+
+#}

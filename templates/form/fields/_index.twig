@@ -1,3 +1,35 @@
-<div class="form-item{% if type == 'hidden' %} form-item--hidden{% endif %}{% if isValid != true %} error{% endif %}">
+{% set required = required ?? true %}
+{% set helptext = helptext ?? null %}
+{% set class = class ?? '' %}
+{% set placeholder = placeholder ?? '' %}
 
+{% if type != 'submit' %}
+    {% set name = name ?? id %}
+{% endif %}
+
+{% set inputs = [
+    'email',
+    'text'
+] %}
+
+<div class="field-item {{ class }}">
+
+    <div class="field-wrap field-wrap--{{ type }}" data-field-container>
+        {% if type != 'submit' %}
+            {% if label|length %}
+                <label class="label" for="{{ id }}" data-label>{{ label }} {% if required %}*{% endif %}</label>
+            {% endif %}
+        {% endif %}
+
+        {% if type in inputs %}
+            {% include 'form/fields/input' with { type:type } %}
+        {% else %}
+            {% include 'form/fields/' ~ type %}
+        {% endif %}
+    </div>
+
+    {% if helptext|length %}
+        <p class="small">{{ helptext }}</p>
+    {% endif %}
 </div>
+
