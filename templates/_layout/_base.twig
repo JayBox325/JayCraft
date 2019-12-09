@@ -5,8 +5,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" class="no-js"><!--<![endif]-->
 
     <head>
-        {# Analytics #}
-        {# Insert GTM markup here #}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
         {# SEO #}
         {# Insert SEO hook here #}
@@ -16,6 +16,14 @@
 
         {# Favicons #}
         {# Insert favicons markup here#}
+
+        {# Reveal CSS #}
+        <style>
+            html {
+                opacity: 0;
+                visibility: hidden;
+            }
+        </style>
     </head>
 
     <body>
@@ -41,6 +49,10 @@
         <script>window.jQuery || document.write('<script src="/public/assets/scripts/jQuery.3.3.1.min.js">\x3C/script>')</script>
 
         <script src="/assets/scripts/bundle.js"></script>
+
+        <div class="hidden">
+            {% include '_layout/svg-symbols' %}
+        </div>
 
     </body>
 

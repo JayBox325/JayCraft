@@ -33,6 +33,10 @@ return [
     'dev' => [
         // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
         'devMode' => true,
+
+        // Mamp database exports
+        'backupCommand' => getenv('BACKUP_COMMAND'),
+        'restoreCommand' => getenv('RESTORE_COMMAND'),
     ],
 
     // Staging environment settings
