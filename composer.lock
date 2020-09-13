@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02cc1dea9322347bb1e95fb265950d31",
+    "content-hash": "4d551c67d3ab3694661d0cb68bfd8723",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -2993,54 +2993,6 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "richhayler/stretch",
-            "version": "1.0.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/richhayler/stretch/zipball/fb961bc951582a179bdd6d705a471c7bd77fdaca",
-                "reference": "fb961bc951582a179bdd6d705a471c7bd77fdaca",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC1"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Stretch",
-                "handle": "stretch",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/richhayler/stretch/master/CHANGELOG.md",
-                "class": "richhayler\\stretch\\Stretch"
-            },
-            "autoload": {
-                "psr-4": {
-                    "richhayler\\stretch\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Rich Hayler",
-                    "homepage": "https://www.richhayler.com/"
-                }
-            ],
-            "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
-            "keywords": [
-                "Craft",
-                "cms",
-                "collapse control panel navigation",
-                "control panel",
-                "craft-plugin",
-                "craftcms",
-                "navigation"
-            ],
-            "time": "2019-06-10T06:15:40+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
