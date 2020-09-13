@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.7 -- NOT RELEASED
+### Added
+- Base CMS config
+
+### Changed
+- Updated CraftCMS to 3.5
+- License information
+
 ## 1.0.6 -- NOT RELEASED
 ### Added
 - MAMP Database export command to general config.
