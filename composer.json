@@ -1,7 +1,7 @@
 {
   "name": "jaybox325/jaycraft",
   "description": "Craft boilerplate to work with JayBox325/JayPack",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "project",
   "require": {
     "adigital/cookie-consent-banner": "^1.1",
