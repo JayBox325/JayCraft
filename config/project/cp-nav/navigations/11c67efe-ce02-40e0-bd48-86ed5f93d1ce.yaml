@@ -1,0 +1,12 @@
+currLabel: 'Entry Count'
+customIcon: null
+enabled: '0'
+handle: entry-count
+icon: /Users/jaycollett/Sites/jaycollett/jaycraft/vendor/putyourlightson/craft-entry-count/src/icon-mask.svg
+layout: eaecba95-0830-4740-9f54-bd68ef3c6896
+newWindow: '0'
+order: '3'
+prevLabel: 'Entry Count'
+prevUrl: entry-count
+type: '0'
+url: entry-count

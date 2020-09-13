@@ -1,0 +1,8 @@
+baseUrl: $DEFAULT_SITE_URL
+handle: default
+hasUrls: true
+language: en-GB
+name: JayCraft
+primary: true
+siteGroup: 0029cea0-a61a-4d4c-a01a-bdf995fd1393
+sortOrder: 1

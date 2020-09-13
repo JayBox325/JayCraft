@@ -1,0 +1,122 @@
+field: c32ae7fc-8956-4f92-a0c3-9d6560441ccd
+fieldLayouts:
+  87f55719-a8b5-4049-a529-246f86e3c86c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d29ea3e7-f083-4acc-a14f-9bd7e8d5edec
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5e90386a-ba13-4916-b959-28901b19935f
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5e90386a-ba13-4916-b959-28901b19935f:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: accountUrl
+    instructions: 'Paste your account''s full URL.'
+    name: 'Account URL'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  d29ea3e7-f083-4acc-a14f-9bd7e8d5edec:
+    contentColumnType: string
+    fieldGroup: null
+    handle: account
+    instructions: 'Select which account you''d like to add.'
+    name: Account
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Instagram
+            -
+              - value
+              - instagram
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Facebook
+            -
+              - value
+              - facebook
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - LinkedIn
+            -
+              - value
+              - linkedin
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Pinterest
+            -
+              - value
+              - pinterest
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Twitter
+            -
+              - value
+              - twitter
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - YouTube
+            -
+              - value
+              - youtube
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: account
+name: Account
+sortOrder: 1
