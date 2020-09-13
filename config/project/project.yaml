@@ -1,0 +1,142 @@
+dateModified: 1600031093
+email:
+  fromEmail: hello@jaycollett.co
+  fromName: JayCraft
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+plugins:
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      allow: 'Allow cookies'
+      async_js: false
+      auto_inject: true
+      decline: Decline
+      defer_js: false
+      disable_in_live_preview: false
+      dismiss: 'Got it!'
+      dismiss_on_scroll: 0
+      dismiss_on_timeout: 0
+      excluded_categories: ''
+      excluded_entry_types: ''
+      expiry_days: 365
+      honour_do_not_track_header: false
+      layout: block
+      learn: 'Learn More'
+      learn_more_link: 'http://cookiesandyou.com/'
+      message: 'This website uses cookies to ensure you get the best experience on our website.'
+      palette: default
+      palette_banner: '#000000'
+      palette_banner_text: '#ffffff'
+      palette_button: '#f1d600'
+      palette_button_text: '#000000'
+      palette_left_button_bg: '#f8e71c'
+      palette_left_button_text: '#000000'
+      palette_link: '#ffffff'
+      position: bottom
+      preload_css: false
+      revokable: false
+      secure_only: false
+      target: _blank
+      type: info
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.7
+    settings:
+      originalNavHash:
+        __assoc__:
+          -
+            - acd97fb0-d20d-4ccb-a137-17698687e2d1
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci9ldGhlci90YWdzL3NyYy9pY29uLW1hc2suc3ZnIiwiaWQiOiJ0YWctbWFuYWdlciJ9LHsibGFiZWwiOiJVc2VycyIsInVybCI6InVzZXJzIiwiZm9udEljb24iOiJ1c2VycyJ9LHsibGFiZWwiOiJFbnRyeSBDb3VudCIsInVybCI6ImVudHJ5LWNvdW50IiwiaWNvbiI6Ii9Vc2Vycy9qYXljb2xsZXR0L1NpdGVzL2pheWNvbGxldHQvamF5Y3JhZnQvdmVuZG9yL3B1dHlvdXJsaWdodHNvbi9jcmFmdC1lbnRyeS1jb3VudC9zcmMvaWNvbi1tYXNrLnN2ZyJ9LHsibGFiZWwiOiJTRU8iLCJ1cmwiOiJzZW8iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5Y29sbGV0dC9qYXljcmFmdC92ZW5kb3IvZXRoZXIvc2VvL3NyYy9pY29uLW1hc2suc3ZnIiwic3VibmF2Ijp7ImRhc2hib2FyZCI6eyJsYWJlbCI6IkRhc2hib2FyZCIsInVybCI6InNlbyJ9LCJzaXRlbWFwIjp7ImxhYmVsIjoiU2l0ZW1hcCIsInVybCI6InNlby9zaXRlbWFwIn0sInJlZGlyZWN0cyI6eyJsYWJlbCI6IlJlZGlyZWN0cyIsInVybCI6InNlby9yZWRpcmVjdHMifSwic2V0dGluZ3MiOnsibGFiZWwiOiJTZXR0aW5ncyIsInVybCI6InNlby9zZXR0aW5ncyJ9fX0seyJsYWJlbCI6IkdyYXBoUUwiLCJ1cmwiOiJncmFwaHFsIiwiaWNvbiI6IkBhcHBpY29ucy9ncmFwaHFsLnN2ZyIsInN1Ym5hdiI6eyJzY2hlbWFzIjp7ImxhYmVsIjoiU2NoZW1hcyIsInVybCI6ImdyYXBocWwvc2NoZW1hcyJ9LCJ0b2tlbnMiOnsibGFiZWwiOiJUb2tlbnMiLCJ1cmwiOiJncmFwaHFsL3Rva2VucyJ9LCJncmFwaGlxbCI6eyJsYWJlbCI6IkdyYXBoaVFMIiwidXJsIjoiZ3JhcGhpcWwiLCJleHRlcm5hbCI6dHJ1ZX19fSx7InVybCI6InV0aWxpdGllcyIsImxhYmVsIjoiVXRpbGl0aWVzIiwiZm9udEljb24iOiJ0b29sIiwiYmFkZ2VDb3VudCI6M30seyJ1cmwiOiJzZXR0aW5ncyIsImxhYmVsIjoiU2V0dGluZ3MiLCJmb250SWNvbiI6InNldHRpbmdzIn0seyJ1cmwiOiJwbHVnaW4tc3RvcmUiLCJsYWJlbCI6IlBsdWdpbiBTdG9yZSIsImZvbnRJY29uIjoicGx1Z2luIn1d
+  defaulttab:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      defaultGroups: false
+      hasTitleField: '1'
+      tabTitle: Content
+  entry-count:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      ignoreIpAddresses: ''
+      ignoreLoggedInUsers: ''
+  entry-instructions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  relabel:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.1
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.1.1
+  similar:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  slug-alert:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      alertMessage: 'Changing a slug can have a potentially negative effect on your site''s SEO and any bookmarked links. Create a redirect after changing a slug, or don''t change the slug at all.'
+      pluginIsActive: '1'
+  snitch:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  stretch:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  supersort:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0.0
+  tag-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: JayCraft
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

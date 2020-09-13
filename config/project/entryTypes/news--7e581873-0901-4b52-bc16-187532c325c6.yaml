@@ -1,0 +1,7 @@
+handle: news
+hasTitleField: true
+name: News
+section: b6dcff48-9906-46af-add1-70d94f8fa406
+sortOrder: 1
+titleFormat: null
+titleLabel: Title
