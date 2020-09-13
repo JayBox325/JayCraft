@@ -4,7 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.0.7 -- NOT RELEASED
+## 1.0.8
+### Added
+- README
+- Supertable
+- Default matrixmate config
+
+### Changed
+- Global social media field
+
+### Removed
+- Outdated plugins
+
+## 1.0.7
 ### Added
 - Base CMS config
 
@@ -12,7 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Updated CraftCMS to 3.5
 - License information
 
-## 1.0.6 -- NOT RELEASED
+## 1.0.6
 ### Added
 - MAMP Database export command to general config.
 - SVG symbols base template & include

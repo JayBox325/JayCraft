@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02cc1dea9322347bb1e95fb265950d31",
+    "content-hash": "f7e20c644aadfff44c491496f66cf582",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -51,48 +51,6 @@
                 "craftcms"
             ],
             "time": "2020-09-10T15:08:59+00:00"
-        },
-        {
-            "name": "anubarak/craft-relabel",
-            "version": "2.0.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Anubarak/craft-relabel/zipball/abb77480ab82011979d1c9cf2286bcfc77910c4f",
-                "reference": "abb77480ab82011979d1c9cf2286bcfc77910c4f",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.5.0-beta.3"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Relabel",
-                "handle": "relabel",
-                "class": "anubarak\\relabel\\Relabel"
-            },
-            "autoload": {
-                "psr-4": {
-                    "anubarak\\relabel\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robin Schambach",
-                    "homepage": "https://github.com/Anubarak"
-                }
-            ],
-            "description": "Relabel Plugin Craft",
-            "keywords": [
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "relabel"
-            ],
-            "time": "2020-08-05T09:53:49+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -2923,43 +2881,6 @@
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
-            "name": "putyourlightson/craft-entry-count",
-            "version": "2.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-entry-count/zipball/0d17d8968cfd22079ec7642562e97d78f6589f07",
-                "reference": "0d17d8968cfd22079ec7642562e97d78f6589f07",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Entry Count",
-                "handle": "entry-count",
-                "developer": "PutYourLightsOn",
-                "developerUrl": "https://www.putyourlightson.net/",
-                "schemaVersion": "2.0.0",
-                "hasCpSettings": true,
-                "hasCpSection": true,
-                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-entry-count/v2/CHANGELOG.md",
-                "class": "putyourlightson\\entrycount\\EntryCount"
-            },
-            "autoload": {
-                "psr-4": {
-                    "putyourlightson\\entrycount\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Counts and displays the number of times that an entry has been viewed.",
-            "homepage": "https://www.putyourlightson.net/craft-entry-count",
-            "time": "2020-02-13T11:29:39+00:00"
-        },
-        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "dist": {
@@ -2993,54 +2914,6 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "richhayler/stretch",
-            "version": "1.0.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/richhayler/stretch/zipball/fb961bc951582a179bdd6d705a471c7bd77fdaca",
-                "reference": "fb961bc951582a179bdd6d705a471c7bd77fdaca",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC1"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Stretch",
-                "handle": "stretch",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/richhayler/stretch/master/CHANGELOG.md",
-                "class": "richhayler\\stretch\\Stretch"
-            },
-            "autoload": {
-                "psr-4": {
-                    "richhayler\\stretch\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Rich Hayler",
-                    "homepage": "https://www.richhayler.com/"
-                }
-            ],
-            "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
-            "keywords": [
-                "Craft",
-                "cms",
-                "collapse control panel navigation",
-                "control panel",
-                "craft-plugin",
-                "craftcms",
-                "navigation"
-            ],
-            "time": "2019-06-10T06:15:40+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
@@ -3328,55 +3201,6 @@
                 "yii2"
             ],
             "time": "2018-09-03T09:40:08+00:00"
-        },
-        {
-            "name": "superbig/craft-entry-instructions",
-            "version": "1.0.7",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sjelfull/craft-entry-instructions/zipball/37991daa02f041f3f23d25a177fe26eab2aad5ef",
-                "reference": "37991daa02f041f3f23d25a177fe26eab2aad5ef",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC1",
-                "sabberworm/php-css-parser": "^8.2.0|^8.1.0"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Entry Instructions",
-                "handle": "entry-instructions",
-                "schemaVersion": "1.0.0",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft-entry-instructions/master/CHANGELOG.md",
-                "class": "superbig\\entryinstructions\\EntryInstructions"
-            },
-            "autoload": {
-                "psr-4": {
-                    "superbig\\entryinstructions\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Superbig",
-                    "homepage": "https://superbig.co"
-                }
-            ],
-            "description": "A simple fieldtype to add instructions",
-            "keywords": [
-                "Craft",
-                "cms",
-                "craft-plugin",
-                "craftcms",
-                "entry instructions",
-                "fieldtype"
-            ],
-            "time": "2020-01-17T08:42:50+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4205,63 +4029,6 @@
             "time": "2017-07-23T12:43:26+00:00"
         },
         {
-            "name": "topshelfcraft/supersort",
-            "version": "3.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TopShelfCraft/SuperSort/zipball/8e3e23e30b49a9fbb285e6b2dd0b458de74e340d",
-                "reference": "8e3e23e30b49a9fbb285e6b2dd0b458de74e340d",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^3.0.0-RC3"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "SuperSort",
-                "handle": "supersort",
-                "developer": "Top Shelf Craft (Michael Rog)",
-                "developerUrl": "https://topshelfcraft.com",
-                "schemaVersion": "0.0.0.0",
-                "hasCpSettings": false,
-                "hasCpSection": false,
-                "changelogUrl": "https://github.com/TopShelfCraft/SuperSort/raw/master/CHANGELOG.md",
-                "components": {
-                    "sorter": "topshelfcraft\\supersort\\services\\Sorter"
-                },
-                "class": "topshelfcraft\\supersort\\SuperSort"
-            },
-            "autoload": {
-                "psr-4": {
-                    "topshelfcraft\\supersort\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Top Shelf Craft (Michael Rog)",
-                    "homepage": "https://topshelfcraft.com"
-                },
-                {
-                    "name": "TJ Draper",
-                    "homepage": "https://buzzingpixel.com"
-                }
-            ],
-            "description": "...a super-duper sorting function for your Craft templates.",
-            "keywords": [
-                "Craft",
-                "SuperSort",
-                "array",
-                "cms",
-                "craft-plugin",
-                "craftcms",
-                "list",
-                "sort",
-                "sorting"
-            ],
-            "time": "2017-12-24T07:18:11+00:00"
-        },
-        {
             "name": "true/punycode",
             "version": "v2.1.1",
             "dist": {
@@ -4538,6 +4305,53 @@
                 "rss": "https://github.com/verbb/cp-nav/commits/v2.atom"
             },
             "time": "2020-08-12T08:09:31+00:00"
+        },
+        {
+            "name": "verbb/super-table",
+            "version": "2.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/34a3c1a79c2956fc0c83c349fa2b303b4d9cbced",
+                "reference": "34a3c1a79c2956fc0c83c349fa2b303b4d9cbced",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.5.0",
+                "verbb/base": "^1.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Super Table",
+                "handle": "super-table",
+                "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+                "documentationUrl": "https://github.com/verbb/super-table",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/super-table/craft-3/CHANGELOG.md",
+                "class": "verbb\\supertable\\SuperTable"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\supertable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "super table"
+            ],
+            "time": "2020-08-21T00:48:21+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
