@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.9
 ### Changed
 - README setup command typo
+- Keeping storage dir in git
 
 ## 1.0.8
 ### Added
