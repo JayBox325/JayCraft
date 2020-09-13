@@ -6,7 +6,7 @@
   "require": {
     "adigital/cookie-consent-banner": "^1.1",
     "anubarak/craft-relabel": "2.0.2",
-    "craftcms/cms": "^3.0.0",
+    "craftcms/cms": "^3.5.0",
     "craftcms/redactor": "^2.4",
     "ether/seo": "3.6.6",
     "ether/tags": "^1.0",
