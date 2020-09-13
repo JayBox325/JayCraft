@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.8
 ### Added
 - README
+- Supertable
+
+### Changed
+- Global social media field
 
 ### Removed
 - Outdated plugins

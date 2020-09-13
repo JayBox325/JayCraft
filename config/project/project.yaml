@@ -1,4 +1,4 @@
-dateModified: 1600032134
+dateModified: 1600033495
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -57,7 +57,7 @@ plugins:
         __assoc__:
           -
             - acd97fb0-d20d-4ccb-a137-17698687e2d1
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci9ldGhlci90YWdzL3NyYy9pY29uLW1hc2suc3ZnIiwiaWQiOiJ0YWctbWFuYWdlciJ9LHsibGFiZWwiOiJFbnRyeSBDb3VudCIsInVybCI6ImVudHJ5LWNvdW50IiwiaWNvbiI6Ii9Vc2Vycy9qYXljb2xsZXR0L1NpdGVzL2pheWNvbGxldHQvamF5Y3JhZnQvdmVuZG9yL3B1dHlvdXJsaWdodHNvbi9jcmFmdC1lbnRyeS1jb3VudC9zcmMvaWNvbi1tYXNrLnN2ZyJ9LHsibGFiZWwiOiJTRU8iLCJ1cmwiOiJzZW8iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5Y29sbGV0dC9qYXljcmFmdC92ZW5kb3IvZXRoZXIvc2VvL3NyYy9pY29uLW1hc2suc3ZnIiwic3VibmF2Ijp7ImRhc2hib2FyZCI6eyJsYWJlbCI6IkRhc2hib2FyZCIsInVybCI6InNlbyJ9LCJzaXRlbWFwIjp7ImxhYmVsIjoiU2l0ZW1hcCIsInVybCI6InNlby9zaXRlbWFwIn0sInJlZGlyZWN0cyI6eyJsYWJlbCI6IlJlZGlyZWN0cyIsInVybCI6InNlby9yZWRpcmVjdHMifSwic2V0dGluZ3MiOnsibGFiZWwiOiJTZXR0aW5ncyIsInVybCI6InNlby9zZXR0aW5ncyJ9fX0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjN9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci9ldGhlci90YWdzL3NyYy9pY29uLW1hc2suc3ZnIiwiaWQiOiJ0YWctbWFuYWdlciJ9LHsibGFiZWwiOiJTRU8iLCJ1cmwiOiJzZW8iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5Y29sbGV0dC9qYXljcmFmdC92ZW5kb3IvZXRoZXIvc2VvL3NyYy9pY29uLW1hc2suc3ZnIiwic3VibmF2Ijp7ImRhc2hib2FyZCI6eyJsYWJlbCI6IkRhc2hib2FyZCIsInVybCI6InNlbyJ9LCJzaXRlbWFwIjp7ImxhYmVsIjoiU2l0ZW1hcCIsInVybCI6InNlby9zaXRlbWFwIn0sInJlZGlyZWN0cyI6eyJsYWJlbCI6IlJlZGlyZWN0cyIsInVybCI6InNlby9yZWRpcmVjdHMifSwic2V0dGluZ3MiOnsibGFiZWwiOiJTZXR0aW5ncyIsInVybCI6InNlby9zZXR0aW5ncyJ9fX0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
   defaulttab:
     edition: standard
     enabled: true
@@ -66,17 +66,6 @@ plugins:
       defaultGroups: false
       hasTitleField: '1'
       tabTitle: Content
-  entry-count:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.0
-    settings:
-      ignoreIpAddresses: ''
-      ignoreLoggedInUsers: ''
-  entry-instructions:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   matrixmate:
     edition: standard
     enabled: true
@@ -85,10 +74,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
-  relabel:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.1.1
   seo:
     edition: standard
     enabled: true
@@ -108,10 +93,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.1.0
-  supersort:
+  super-table:
     edition: standard
     enabled: true
-    schemaVersion: 0.0.0.0
+    schemaVersion: 2.2.1
   tag-manager:
     edition: standard
     enabled: true
