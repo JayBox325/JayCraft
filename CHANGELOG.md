@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - Initial DB
 
+### Changed
+- Updating env file to match new init DB
+
 ## 1.0.10
 ### Added
 - Unlicence
