@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 792988f8-7d15-4596-8171-84de845b5608
+handle: altText
+instructions: 'Image alternative text. Describe the image, don''t name it. e.g. "Two people talking over a laptop"'
+name: 'Alt text'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

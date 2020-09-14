@@ -5,7 +5,7 @@ handle: siteDetails
 icon: globe
 layout: eaecba95-0830-4740-9f54-bd68ef3c6896
 newWindow: '0'
-order: 5
+order: 4
 prevLabel: 'Site details'
 prevUrl: globals
 type: manual

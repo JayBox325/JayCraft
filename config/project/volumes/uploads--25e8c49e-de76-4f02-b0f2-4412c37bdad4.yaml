@@ -1,0 +1,47 @@
+fieldLayouts:
+  3f6879be-9c33-4de6-b8bb-ad22d1cb9abb:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0136bb82-6130-48c6-88cc-015d69da6199
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: uploads
+hasUrls: true
+name: Uploads
+settings:
+  path: '@webroot/uploads'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@assetUrl'
