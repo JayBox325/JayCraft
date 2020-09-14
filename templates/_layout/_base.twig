@@ -2,28 +2,20 @@
 <!--[if IE]><![endif]-->
 <!--[if lt IE 9 ]><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie">    <![endif]-->
 <!--[if IE 9 ]><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie9">    <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" class="no-js"><!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB"><!--<![endif]-->
 
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
         {# SEO #}
-        {# Insert SEO hook here #}
+        {% hook "seo" %}
 
         {# CSS #}
         <link rel="stylesheet" href="/assets/styles/styles.css">
 
         {# Favicons #}
-        {# Insert favicons markup here#}
-
-        {# Reveal CSS #}
-        <style>
-            html {
-                opacity: 0;
-                visibility: hidden;
-            }
-        </style>
+        {# Insert favicons markup here #}
     </head>
 
     <body>
