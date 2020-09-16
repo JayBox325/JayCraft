@@ -7,8 +7,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.12
 ### Added
 - SVG Symbol markup example
+- Error template dir
 
 ### Changed
+- Tidying base file to match JayPack
+- Removing Rev plugin
 - Craft dynamic language tag
 
 ## 1.0.11
