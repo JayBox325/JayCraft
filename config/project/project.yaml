@@ -1,4 +1,4 @@
-dateModified: 1600071202
+dateModified: 1600211478
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -8,6 +8,10 @@ graphql:
     enabled: false
     expiryDate: null
 plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   cookie-consent-banner:
     edition: standard
     enabled: true

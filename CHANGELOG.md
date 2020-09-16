@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.12
+### Added
+- SVG Symbol markup example
+
+### Changed
+- Craft dynamic language tag
+
 ## 1.0.11
 ### Added
 - Initial DB
