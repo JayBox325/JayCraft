@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.0.12
+## 1.0.11
 ### Added
 - SVG Symbol markup example
 - Error template dir
@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Testimonial section
 - Embedded assets plugin
 - Components playground page
+- Initial DB
 
 ### Changed
 - Tidying base file to match JayPack
@@ -19,16 +20,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Craft dynamic language tag
 - Improved Redactor defaults
 - MatrixMate config
+- Updating env file to match new init DB
 
 ### Removed
 - Unused plugins
-
-## 1.0.11
-### Added
-- Initial DB
-
-### Changed
-- Updating env file to match new init DB
 
 ## 1.0.10
 ### Added
