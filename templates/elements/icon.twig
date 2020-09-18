@@ -1,0 +1,15 @@
+{% set symbol = symbol ?? '' %}
+{% set size = size ?? 'md' %}
+
+<svg role="img" aria-hidden="true" class="icon icon--{{ symbol }} icon--{{ size }}">
+    <use xlink:href="#{{ symbol }}"></use>
+</svg>
+
+{#
+
+    {% include 'elements/icon' with {
+        symbol: 'arrow-right',
+        size: 'sm'
+    } %}
+
+#}

@@ -2,10 +2,10 @@ currLabel: SEO
 customIcon: null
 enabled: '1'
 handle: seo
-icon: /Users/jaycollett/Sites/jaycollett/jaycraft/vendor/ether/seo/src/icon-mask.svg
+icon: globe
 layout: eaecba95-0830-4740-9f54-bd68ef3c6896
-newWindow: '0'
-order: 4
+newWindow: false
+order: '5'
 prevLabel: SEO
 prevUrl: seo
 type: '0'

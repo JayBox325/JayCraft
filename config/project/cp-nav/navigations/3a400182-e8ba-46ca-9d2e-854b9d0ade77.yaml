@@ -5,7 +5,7 @@ handle: plugin-store
 icon: plugin
 layout: eaecba95-0830-4740-9f54-bd68ef3c6896
 newWindow: '0'
-order: '8'
+order: 10
 prevLabel: 'Plugin Store'
 prevUrl: plugin-store
 type: '0'
