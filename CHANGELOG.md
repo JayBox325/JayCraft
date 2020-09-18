@@ -8,11 +8,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - SVG Symbol markup example
 - Error template dir
+- Default site fields
+- Testimonial section
+- Embedded assets plugin
+- Components playground page
 
 ### Changed
 - Tidying base file to match JayPack
 - Removing Rev plugin
 - Craft dynamic language tag
+- Improved Redactor defaults
+- MatrixMate config
+
+### Removed
+- Unused plugins
 
 ## 1.0.11
 ### Added

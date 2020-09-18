@@ -1,0 +1,54 @@
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+fieldLayouts:
+  9784d67b-9217-4a82-8f71-1492976e4790:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d569c65b-2978-43ee-bbe9-724c8b6823d8
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  d569c65b-2978-43ee-bbe9-724c8b6823d8:
+    contentColumnType: string
+    fieldGroup: null
+    handle: externalVideo
+    instructions: 'Upload a video from YouTube or Vimeo.'
+    name: 'External video'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - json
+        - video
+      defaultUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Embed a video'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      singleUploadLocationSubpath: /embedded
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: externalVideo
+name: 'External video'
+sortOrder: 6

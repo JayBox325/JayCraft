@@ -1,0 +1,74 @@
+field: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec
+fieldLayouts:
+  0e5757c1-b1e8-4754-b00e-d0f77bb47449:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1156f455-4e06-4ae7-9644-b41dfc286ac1
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1156f455-4e06-4ae7-9644-b41dfc286ac1:
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1c00e1f6-a02c-4db7-b8db-22f55c91a4d2:
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: ''
+    name: Body
+    searchable: true
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Standard.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field

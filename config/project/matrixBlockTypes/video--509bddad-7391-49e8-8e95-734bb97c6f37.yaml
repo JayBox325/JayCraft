@@ -1,0 +1,96 @@
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+fieldLayouts:
+  9db008b5-5d2f-4947-a621-566114dc4116:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d5d7809c-23f4-4811-aac0-88ea44885cf1
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+        name: Content
+        sortOrder: 1
+fields:
+  d5d7809c-23f4-4811-aac0-88ea44885cf1:
+    contentColumnType: string
+    fieldGroup: null
+    handle: mp4
+    instructions: 'Upload an MP4 video file.'
+    name: MP4
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - video
+      defaultUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add an MP4 file'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a:
+    contentColumnType: string
+    fieldGroup: null
+    handle: webm
+    instructions: 'Upload a WebM video file.'
+    name: WebM
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - video
+      defaultUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a WebM file'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: video
+name: Video
+sortOrder: 5

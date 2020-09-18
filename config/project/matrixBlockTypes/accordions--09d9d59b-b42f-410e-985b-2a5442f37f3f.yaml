@@ -1,0 +1,56 @@
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+fieldLayouts:
+  79798186-af3d-4f7d-9b37-62d7eceb2adf:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec:
+    contentColumnType: string
+    fieldGroup: null
+    handle: accordions
+    instructions: 'Add multiple accordions.'
+    name: Accordions
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 1156f455-4e06-4ae7-9644-b41dfc286ac1
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_accordions}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: accordions
+name: Accordions
+sortOrder: 1
