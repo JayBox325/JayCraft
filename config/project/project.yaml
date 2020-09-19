@@ -1,4 +1,4 @@
-dateModified: 1600470327
+dateModified: 1600514996
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -18,34 +18,34 @@ plugins:
     schemaVersion: 1.0.1
     settings:
       allow: 'Allow cookies'
-      async_js: false
-      auto_inject: true
+      async_js: ''
+      auto_inject: '1'
       decline: Decline
-      defer_js: false
-      disable_in_live_preview: false
-      dismiss: 'Got it!'
-      dismiss_on_scroll: 0
-      dismiss_on_timeout: 0
-      excluded_categories: ''
-      excluded_entry_types: ''
-      expiry_days: 365
-      honour_do_not_track_header: false
-      layout: block
+      defer_js: ''
+      disable_in_live_preview: '1'
+      dismiss: Accept
+      dismiss_on_scroll: '0'
+      dismiss_on_timeout: '0'
+      excluded_categories: null
+      excluded_entry_types: null
+      expiry_days: '365'
+      honour_do_not_track_header: ''
+      layout: classic
       learn: 'Learn More'
       learn_more_link: 'http://cookiesandyou.com/'
       message: 'This website uses cookies to ensure you get the best experience on our website.'
-      palette: default
-      palette_banner: '#000000'
-      palette_banner_text: '#ffffff'
-      palette_button: '#f1d600'
-      palette_button_text: '#000000'
-      palette_left_button_bg: '#f8e71c'
-      palette_left_button_text: '#000000'
+      palette: whitegreen
+      palette_banner: '#efefef'
+      palette_banner_text: '#404040'
+      palette_button: '#8ec760'
+      palette_button_text: '#ffffff'
+      palette_left_button_bg: '#8ec760'
+      palette_left_button_text: '#ffffff'
       palette_link: '#ffffff'
-      position: bottom
-      preload_css: false
-      revokable: false
-      secure_only: false
+      position: bottom-left
+      preload_css: ''
+      revokable: ''
+      secure_only: ''
       target: _blank
       type: info
   cp-field-inspect:
@@ -78,6 +78,47 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.1.1
+    settings:
+      description: '{pageDescription|striptags}'
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage: ''
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' - {{ siteName }}'
+      titleSuffix: null
+      twitterHandle: ''
   similar:
     edition: standard
     enabled: true

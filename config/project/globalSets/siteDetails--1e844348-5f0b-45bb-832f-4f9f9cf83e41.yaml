@@ -14,5 +14,18 @@ fieldLayouts:
             width: 100
         name: Social
         sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 4caee081-e90b-4ece-8d4a-8d67ab5b2928
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Share config'
+        sortOrder: 2
 handle: siteDetails
 name: 'Site details'

@@ -1,5 +1,5 @@
 fieldLayouts:
-  3f6879be-9c33-4de6-b8bb-ad22d1cb9abb:
+  2f2bbf20-1bce-4885-bd97-2a58dd5d8e8b:
     tabs:
       -
         elements:
@@ -26,22 +26,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\TitleField
             warning: null
             width: 100
-          -
-            fieldUid: 0136bb82-6130-48c6-88cc-015d69da6199
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
         name: Content
         sortOrder: 1
-handle: uploads
+handle: documents
 hasUrls: true
-name: Uploads
+name: Documents
 settings:
-  path: '@webroot/uploads'
-sortOrder: 1
+  path: '@webroot/uploads/documents'
+sortOrder: 6
 type: craft\volumes\Local
-url: '@assetUrl'
+url: $ASSET_BASE_URL/documents

@@ -27,7 +27,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
       defaultUploadLocationSubpath: ''
       limit: '8'
       localizeRelations: false
@@ -37,12 +37,13 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:25e8c49e-de76-4f02-b0f2-4412c37bdad4'
+      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
       singleUploadLocationSubpath: ''
       source: null
-      sources: '*'
+      sources:
+        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
       targetSiteId: null
-      useSingleFolder: true
+      useSingleFolder: false
       validateRelatedElements: false
       viewMode: list
     translationKeyFormat: null
