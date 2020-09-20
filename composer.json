@@ -3,6 +3,7 @@
   "description": "Craft boilerplate to work with JayBox325/JayPack",
   "version": "1.0.13",
   "type": "project",
+  "license": "Unlicense",
   "require": {
     "adigital/cookie-consent-banner": "^1.1",
     "clubstudioltd/craft-asset-rev": "^6.0",
