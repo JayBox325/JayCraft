@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.15 -- DEV
 ### Changed
 - Updated new init DB
+- Updated packages
 
 ## 1.0.14
 ### Changed
