@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 37791995-fc9d-4977-9057-ad800dd1b735
 fieldLayouts:
-  d0e70e63-9251-4b8e-8944-f31af538c0e1:
+  77357e29-d8f9-4383-b3b2-ead5fe80866d:
     tabs:
       -
         elements:
           -
-            fieldUid: 16dcf610-573a-409e-b404-c4aafe8ea764
+            fieldUid: 6d85fef4-37dc-4f7f-9262-4313c67f0860
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 19d67a4c-90d7-4ae3-a367-e59f631af8d7
+            fieldUid: 7b2d3a28-340a-4a61-b2e5-f55aea8a2595
             instructions: null
             label: null
             required: false
@@ -25,45 +25,34 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  16dcf610-573a-409e-b404-c4aafe8ea764:
+  6d85fef4-37dc-4f7f-9262-4313c67f0860:
     contentColumnType: string
     fieldGroup: null
-    handle: images
-    instructions: 'Limit of eight.'
-    name: Images
+    handle: entry
+    instructions: 'Select the page to list in the menu.'
+    name: Entry
     searchable: false
     settings:
       allowSelfRelations: false
-      allowedKinds:
-        - image
-      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
-      defaultUploadLocationSubpath: ''
-      limit: '8'
+      limit: '1'
       localizeRelations: false
-      previewMode: full
-      restrictFiles: '1'
-      selectionLabel: 'Add an image'
+      selectionLabel: ''
       showSiteMenu: true
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
-      singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+        - 'section:3a95c5ae-691b-45a9-af63-804ec4f32d8f'
       targetSiteId: null
-      useSingleFolder: false
       validateRelatedElements: false
-      viewMode: list
+      viewMode: null
     translationKeyFormat: null
     translationMethod: site
-    type: craft\fields\Assets
-  19d67a4c-90d7-4ae3-a367-e59f631af8d7:
+    type: craft\fields\Entries
+  7b2d3a28-340a-4a61-b2e5-f55aea8a2595:
     contentColumnType: text
     fieldGroup: null
-    handle: description
-    instructions: 'Describe this image/these images.'
-    name: Description
+    handle: rename
+    instructions: 'If the menu item requires a custom title.'
+    name: Rename
     searchable: false
     settings:
       byteLimit: null
@@ -77,6 +66,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: images
-name: Images
-sortOrder: 4
+handle: menuItem
+name: 'Menu item'
+sortOrder: 1

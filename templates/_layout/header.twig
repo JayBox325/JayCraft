@@ -1,0 +1,15 @@
+{% import '_macros/macros' as macro %}
+
+<header class="header">
+    <div class="container">
+        <div class="header__left">
+            <a href="/" class="header__logo">
+                <h1>JayCraft</h1>
+                {# {{ macro.icon('logo', 'lg')}} #}
+            </a>
+        </div>
+        <div class="header__right">
+            {% include '_layout/menu' %}
+        </div>
+    </div>
+</header>

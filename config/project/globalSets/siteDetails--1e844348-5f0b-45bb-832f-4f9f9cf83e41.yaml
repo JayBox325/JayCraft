@@ -4,6 +4,50 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 37791995-fc9d-4977-9057-ad800dd1b735
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 639079df-d2e2-40b6-b2a2-2b528a89ec4e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+        name: Menus
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 4a8ef1e9-0d62-4ea2-b094-f78aa2d8b906
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fb3be2e2-4f29-4954-867d-c4ab5dc55a9c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Business details'
+        sortOrder: 2
+      -
+        elements:
+          -
             fieldUid: c32ae7fc-8956-4f92-a0c3-9d6560441ccd
             instructions: null
             label: null
@@ -12,7 +56,16 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Social
-        sortOrder: 1
+          -
+            fieldUid: 4caee081-e90b-4ece-8d4a-8d67ab5b2928
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Social media'
+        sortOrder: 3
 handle: siteDetails
 name: 'Site details'

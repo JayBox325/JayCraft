@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: 9d0976d6-6ff8-4790-9e75-5bb37d331d19
+handle: utilityMenu
+instructions: 'List of pages to show in the footer, such as legal pages.'
+name: 'Utility menu'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '6'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:b6dcff48-9906-46af-add1-70d94f8fa406'
+    - 'section:3a95c5ae-691b-45a9-af63-804ec4f32d8f'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

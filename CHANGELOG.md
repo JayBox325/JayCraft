@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.12
+### Added
+- Basic footer markup
+- Multiple asset directories
+- Audio file component
+- Core fields
+- External URL macro
+- Menu list field
+
 ## 1.0.11
 ### Added
 - SVG Symbol markup example
