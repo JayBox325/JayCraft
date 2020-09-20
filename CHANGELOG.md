@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.15 -- DEV
+### Changed
+- Updated new init DB
+
+## 1.0.14
+### Changed
+- Added license tag to composer
+
 ## 1.0.13
 ### Changed
 - Renamed license to work with packagist
