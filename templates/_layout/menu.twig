@@ -1,8 +1,12 @@
 {# Get site structure top two levels #}
-{% set pages = craft.entries.section('site').level('<= 2').all() %}
+{% if siteDetails.mainMenu|length %}
+    {% set pages = siteDetails.mainMenu.all() %}
+{% else %}
+    {% set pages = craft.entries.section('site').level('1').all() %}
+{% endif %}
 
 <span hidden id="menu-label">Main menu</span>
-<button class="hamburger" data-hamburger aria-label="Main menu" aria-labelledby="menu-label" aria-expanded="false">Sup</button>
+<button class="hamburger" data-hamburger aria-label="Main menu" aria-labelledby="menu-label" aria-expanded="false"></button>
 
 <nav class="menu" data-menuaria-labelledby="menu-label">
     <ul class="menu__wrap menu__wrap--top">
