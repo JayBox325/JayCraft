@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 - Updated new init DB
 - Updated packages
+- Fixed footer admin link
 
 ## 1.0.14
 ### Changed
