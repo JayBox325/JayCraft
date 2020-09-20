@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 9d0976d6-6ff8-4790-9e75-5bb37d331d19
+handle: mainMenu
+instructions: 'List of pages to show in the main site navigation. Maximum of seven for user experience purposes.'
+name: 'Main menu'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_mainmenu}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

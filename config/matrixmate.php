@@ -6,11 +6,11 @@ return [
             'groups' => [
                 [
                     'label' => 'Content',
-                    'types' => ['accordions', 'body', 'testimonial'],
+                    'types' => ['body', 'accordions', 'testimonial'],
                 ],
                 [
                     'label' => 'Media',
-                    'types' => ['images', 'video', 'externalVideo'],
+                    'types' => ['images', 'video', 'externalVideo', 'audio'],
                 ]
             ]
         ]

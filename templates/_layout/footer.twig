@@ -2,6 +2,11 @@
 
 <footer class="row footer">
     <div class="container">
-        <p>{{ now|date("Y") }} &copy; {{ siteName }}. {% if currentUser.admin %}<a href="/admin" {{ macro.external(true) }}>Control Panel</a>{% endif %} <a href="https://jaycollett.co" {{ macro.external(true) }}>Site Credits</a>
+        <div class="mb-6">
+            {{ macro.social(siteDetails.socialAccounts.all()) }}
+        </div>
+        <div class="w-content">
+            <p>{{ now|date("Y") }} &copy; {{ siteName }}. {% if currentUser.admin %}<a href="/admin" {{ macro.external(true) }}>Control Panel</a>{% endif %} <a href="https://jaycollett.co" {{ macro.external(true) }}>Site Credits</a></p>
+        </div>
     </div>
 </footer>

@@ -1,0 +1,71 @@
+field: 639079df-d2e2-40b6-b2a2-2b528a89ec4e
+fieldLayouts:
+  80334c73-dfcf-4981-addc-d15f5cd7cba6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c1c97c2a-a7cd-4751-bbb2-4d66a1e72294
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 81072bba-d351-4fb8-904b-dbe43b2eb1e8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  81072bba-d351-4fb8-904b-dbe43b2eb1e8:
+    contentColumnType: text
+    fieldGroup: null
+    handle: rename
+    instructions: 'If the menu requires a custom title.'
+    name: Rename
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c1c97c2a-a7cd-4751-bbb2-4d66a1e72294:
+    contentColumnType: string
+    fieldGroup: null
+    handle: entry
+    instructions: 'Select the page to list in the menu.'
+    name: Entry
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:3a95c5ae-691b-45a9-af63-804ec4f32d8f'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: menuItem
+name: 'Menu item'
+sortOrder: 1

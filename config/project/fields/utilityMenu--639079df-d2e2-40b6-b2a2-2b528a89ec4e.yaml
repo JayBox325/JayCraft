@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 9d0976d6-6ff8-4790-9e75-5bb37d331d19
+handle: utilityMenu
+instructions: 'List of pages to show in the footer, such as legal pages.'
+name: 'Utility menu'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_utilitymenu}}'
+  maxBlocks: '4'
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
