@@ -1,0 +1,12 @@
+/* BUILT BY */
+Design & Development: Jay Collett
+Site: https://jaycollett.co
+Twitter: @JayBox325
+Location: Bath, England
+
+/* SITE */
+Bult with CraftCMS, Webpack and Gulp using JayPack and JayCraft.
+
+CraftCMS: https://craftcms.com/
+JayPack: https://github.com/JayBox325/JayPack
+JayCraft: https://github.com/JayBox325/JayCraft

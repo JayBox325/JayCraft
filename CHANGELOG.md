@@ -10,6 +10,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Updated packages
 - Fixed footer admin link
 
+### Added
+- Humans file
+
 ## 1.0.14
 ### Changed
 - Added license tag to composer
