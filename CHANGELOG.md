@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Updated packages
 - Fixed footer admin link
 - Improved Redactor config
+- Moved some twig into a new `_includes` dir
 
 ### Added
 - Humans file
