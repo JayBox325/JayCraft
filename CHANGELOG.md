@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Updated new init DB
 - Updated packages
 - Fixed footer admin link
+- Improved Redactor config
 
 ### Added
 - Humans file
