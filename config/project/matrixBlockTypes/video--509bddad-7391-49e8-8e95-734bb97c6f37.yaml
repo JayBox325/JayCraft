@@ -134,4 +134,4 @@ fields:
     type: craft\fields\Assets
 handle: video
 name: Video
-sortOrder: 5
+sortOrder: 6

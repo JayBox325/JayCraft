@@ -52,4 +52,4 @@ fields:
     type: craft\fields\Assets
 handle: externalVideo
 name: 'External video'
-sortOrder: 6
+sortOrder: 7

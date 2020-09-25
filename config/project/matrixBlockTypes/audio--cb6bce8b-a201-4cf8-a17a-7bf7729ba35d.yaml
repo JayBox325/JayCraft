@@ -51,4 +51,4 @@ fields:
     type: craft\fields\Assets
 handle: audio
 name: Audio
-sortOrder: 7
+sortOrder: 8
