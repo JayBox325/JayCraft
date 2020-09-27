@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.16 -- DEV
 ### Added
 - Default colour swatched template
+- Asset aliases
+
+### Changed
+- Replaced DB with newer one
 
 ## 1.0.15
 ### Changed
