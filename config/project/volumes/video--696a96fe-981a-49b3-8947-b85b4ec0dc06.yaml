@@ -32,7 +32,7 @@ handle: video
 hasUrls: true
 name: Video
 settings:
-  path: '@webroot/uploads/video'
+  path: '@videoRoot'
 sortOrder: 2
 type: craft\volumes\Local
-url: $ASSET_BASE_URL/video
+url: '@video'

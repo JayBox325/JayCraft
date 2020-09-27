@@ -26,6 +26,21 @@ return [
         // Custom error template config
         'errorTemplatePrefix' => '_errors/',
 
+        // CMS Aliases
+        'aliases' => [
+            '@image' => getenv('ASSET_BASE_URL') . '/image',
+            '@video' => getenv('ASSET_BASE_URL') . '/video',
+            '@embed' => getenv('ASSET_BASE_URL') . '/embed',
+            '@audio' => getenv('ASSET_BASE_URL') . '/audio',
+            '@documents' => getenv('ASSET_BASE_URL') . '/documents',
+
+            '@imageRoot' => dirname(__DIR__) . '/uploads/image',
+            '@videoRoot' => dirname(__DIR__) . '/uploads/video',
+            '@embedRoot' => dirname(__DIR__) . '/uploads/embed',
+            '@audioRoot' => dirname(__DIR__) . '/uploads/audio',
+            '@documentsRoot' => dirname(__DIR__) . '/uploads/documents',
+        ],
+
     ],
 
     // Dev environment settings

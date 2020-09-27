@@ -41,7 +41,7 @@ handle: image
 hasUrls: true
 name: Image
 settings:
-  path: '@webroot/uploads/image'
+  path: '@imageRoot'
 sortOrder: 3
 type: craft\volumes\Local
-url: $ASSET_BASE_URL/image
+url: '@image'

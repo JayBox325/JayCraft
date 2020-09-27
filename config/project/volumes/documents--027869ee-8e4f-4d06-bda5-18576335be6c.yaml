@@ -32,7 +32,7 @@ handle: documents
 hasUrls: true
 name: Documents
 settings:
-  path: '@webroot/uploads/documents'
+  path: '@documentsRoot'
 sortOrder: 6
 type: craft\volumes\Local
-url: $ASSET_BASE_URL/documents
+url: '@documents'

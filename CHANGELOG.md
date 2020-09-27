@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.16
+### Added
+- Default colour swatched template
+- Asset aliases
+
+### Changed
+- Replaced DB with newer one
+
 ## 1.0.15
 ### Changed
 - Updated new init DB

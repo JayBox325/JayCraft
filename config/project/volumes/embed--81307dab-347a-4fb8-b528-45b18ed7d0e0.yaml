@@ -32,7 +32,7 @@ handle: embed
 hasUrls: true
 name: Embed
 settings:
-  path: '@webroot/uploads/embed'
+  path: '@embedRoot'
 sortOrder: 4
 type: craft\volumes\Local
-url: $ASSET_BASE_URL/embed
+url: '@embed'

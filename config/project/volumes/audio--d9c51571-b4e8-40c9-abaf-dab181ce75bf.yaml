@@ -32,7 +32,7 @@ handle: audio
 hasUrls: true
 name: Audio
 settings:
-  path: '@webroot/uploads/audio'
+  path: '@audioRoot'
 sortOrder: 5
 type: craft\volumes\Local
-url: $ASSET_BASE_URL/audio
+url: '@audio'
