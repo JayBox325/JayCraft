@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - Humans file
 - Feature page component
+- Navigation plugin (It's $19 and rules!)
 
 ## 1.0.14
 ### Changed

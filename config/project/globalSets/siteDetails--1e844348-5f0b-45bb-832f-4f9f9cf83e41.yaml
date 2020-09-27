@@ -4,28 +4,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 37791995-fc9d-4977-9057-ad800dd1b735
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 50
-          -
-            fieldUid: 639079df-d2e2-40b6-b2a2-2b528a89ec4e
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 50
-        name: Menus
-        sortOrder: 1
-      -
-        elements:
-          -
             fieldUid: 4a8ef1e9-0d62-4ea2-b094-f78aa2d8b906
             instructions: null
             label: null
@@ -44,7 +22,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: 'Business details'
-        sortOrder: 2
+        sortOrder: 1
       -
         elements:
           -
@@ -66,6 +44,6 @@ fieldLayouts:
             warning: null
             width: 100
         name: 'Social media'
-        sortOrder: 3
+        sortOrder: 2
 handle: siteDetails
 name: 'Site details'

@@ -5,13 +5,13 @@
         <div class="mb-6">
             {{ macro.social(siteDetails.socialAccounts.all()) }}
         </div>
-        {% if siteDetails.utilityMenu|length %}
+        {% set utilityNodes = craft.navigation.nodes().handle('footerUtilityMenu').all() %}
+        {% if utilityNodes|length %}
             <div class="mb-6">
-                {% set utility = siteDetails.utilityMenu.all() %}
                 <ul class="list list--inline">
-                    {% for item in utility %}
+                    {% for node in utilityNodes %}
                         <li class="">
-                            <a href="{{ item.url }}" class="">{{ item.title }}</a>
+                            <a href="{{ node.url }}" class="">{{ node.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>
