@@ -7,6 +7,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="preconnect" href="{{ siteUrl }}">
+        <link rel="dns-prefetch" href="{{ siteUrl }}">
+        <link type="text/plain" rel="author" href="/humans.txt" />
 
         {# SEO #}
         {% hook "seo" %}
@@ -15,7 +18,7 @@
         <link rel="stylesheet" href="/assets/styles/styles.css">
 
         {# Favicons #}
-        {% include '_layout/favicons' %}
+        {% include '_includes/favicons' %}
     </head>
 
     <body class="min-h-screen min-w-screen" data-barba="wrapper">
@@ -35,7 +38,7 @@
 
         {# SVG Symbols #}
         <div class="hidden">
-            {% include '_layout/svg-symbols' %}
+            {% include '_includes/svg-symbols' %}
         </div>
     </body>
 </html>

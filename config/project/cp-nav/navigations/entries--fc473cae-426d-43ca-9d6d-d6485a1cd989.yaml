@@ -4,8 +4,8 @@ enabled: '1'
 handle: entries
 icon: section
 layout: eaecba95-0830-4740-9f54-bd68ef3c6896
-newWindow: false
-order: '2'
+newWindow: '0'
+order: 2
 prevLabel: Entries
 prevUrl: entries
 type: '0'

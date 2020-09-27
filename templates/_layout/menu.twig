@@ -1,18 +1,13 @@
-{# Get site structure top two levels #}
-{% if siteDetails.mainMenu|length %}
-    {% set pages = siteDetails.mainMenu.all() %}
-{% else %}
-    {% set pages = craft.entries.section('site').level('1').all() %}
-{% endif %}
+{% set nodes = craft.navigation.nodes().handle('mainNavigation').all() %}
 
 <span hidden id="menu-label">Main menu</span>
 <button class="hamburger" data-hamburger aria-label="Main menu" aria-labelledby="menu-label" aria-expanded="false"></button>
 
 <nav class="menu" data-menuaria-labelledby="menu-label">
     <ul class="menu__wrap menu__wrap--top">
-        {% nav page in pages %}
+		{% nav node in nodes %}
             <li class="menu__item">
-                <a href="{{ page.url }}" class="menu__link">{{ page.title }}</a>
+                <a href="{{ node.url }}" class="menu__link">{{ node.title }}</a>
                 
                 {% ifchildren %}
                     <ul class="menu__wrap--child">

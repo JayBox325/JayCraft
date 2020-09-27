@@ -5,20 +5,20 @@
         <div class="mb-6">
             {{ macro.social(siteDetails.socialAccounts.all()) }}
         </div>
-        {% if siteDetails.utilityMenu|length %}
+        {% set utilityNodes = craft.navigation.nodes().handle('footerUtilityMenu').all() %}
+        {% if utilityNodes|length %}
             <div class="mb-6">
-                {% set utility = siteDetails.utilityMenu.all() %}
                 <ul class="list list--inline">
-                    {% for item in utility %}
+                    {% for node in utilityNodes %}
                         <li class="">
-                            <a href="{{ item.url }}" class="">{{ item.title }}</a>
+                            <a href="{{ node.url }}" class="">{{ node.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>
             </div>
         {% endif %}
         <div class="w-content">
-            <p>{{ now|date("Y") }} &copy; {{ siteName }}. {% if currentUser.admin %}<a href="/admin" {{ macro.external(true) }}>Control Panel</a>{% endif %} <a href="https://jaycollett.co" {{ macro.external(true) }}>Site Credits</a></p>
+            <p>{{ now|date("Y") }} &copy; {{ siteName }}. {% if currentUser and currentUser.admin %}<a href="/admin" {{ macro.external(true) }}>Control Panel</a>{% endif %} <a href="https://jaycollett.co" {{ macro.external(true) }}>Site Credits</a></p>
         </div>
     </div>
 </footer>

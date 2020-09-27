@@ -10,5 +10,21 @@
     "plugins": ["fullscreen"],
     "linkNewTab": true,
     "toolbarFixed": true,
-    "formatting": ["p", "h3", "h4", "blockquote"]
-}
+    "formatting": ["p", "h3", "h4", "blockquote"],
+    "formattingAdd": {
+      "h3": {
+        "title": "Heading (H3)",
+        "api": "module.block.format",
+        "args": {
+          "tag": "h3"
+        }
+      },
+      "h4": {
+        "title": "Subheading (H4)",
+        "api": "module.block.format",
+        "args": {
+          "tag": "h4"
+        }
+      }
+    }
+  }

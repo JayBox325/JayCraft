@@ -1,0 +1,9 @@
+handle: footerUtilityMenu
+instructions: 'Smaller footer to appear in the navigation for more utility pages such as "Privacy Policy".'
+maxNodes: ''
+name: 'Footer Utility Menu'
+propagateNodes: false
+sortOrder: 2
+structure:
+  maxLevels: '1'
+  uid: c3385a00-b00c-4492-bfa0-0fdf252b330a

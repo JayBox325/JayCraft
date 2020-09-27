@@ -4,10 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 1.0.15 -- DEV
+## 1.0.15
 ### Changed
 - Updated new init DB
 - Updated packages
+- Fixed footer admin link
+- Improved Redactor config
+- Moved some twig into a new `_includes` dir
+
+### Added
+- Humans file
+- Feature page component
+- Navigation plugin (It's $19 and rules!)
 
 ## 1.0.14
 ### Changed

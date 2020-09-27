@@ -4,8 +4,8 @@ enabled: '1'
 handle: siteDetails
 icon: edit
 layout: eaecba95-0830-4740-9f54-bd68ef3c6896
-newWindow: false
-order: '4'
+newWindow: '0'
+order: 4
 prevLabel: 'Site details'
 prevUrl: globals
 type: manual

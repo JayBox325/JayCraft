@@ -6,7 +6,7 @@ return [
             'groups' => [
                 [
                     'label' => 'Content',
-                    'types' => ['body', 'accordions', 'testimonial'],
+                    'types' => ['body', 'feature', 'accordions', 'testimonial'],
                 ],
                 [
                     'label' => 'Media',
