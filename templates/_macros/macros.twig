@@ -11,8 +11,8 @@
 {% macro social(networks) %}
     <ul class="list list--inline">
         {% for network in networks %}
-            <li class="social__item">
-                <a href="{{ network.accountUrl }}" aria-label="Find us on {{ network.account.label }}" class="social__link social__link--{{ network.account }}">
+            <li class="list__item">
+                <a href="{{ network.accountUrl }}" aria-label="Find us on {{ network.account.label }}" class="social-icon social-icon--{{ network.account }}">
                     {{ _self.icon(network.account, 'md') }}
                 </a>
             </li>
