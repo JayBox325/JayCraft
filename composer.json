@@ -1,7 +1,7 @@
 {
   "name": "jaybox325/jaycraft",
   "description": "Craft boilerplate to work with JayBox325/JayPack",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "type": "project",
   "license": "Unlicense",
   "require": {
@@ -15,7 +15,7 @@
     "nystudio107/craft-similar": "^1.0",
     "nystudio107/craft-typogrify": "^1.1.1",
     "ostark/craft-plugin-commands": "^1.1",
-    "percipioglobal/craft-colour-swatches": "1.3.3",
+    "percipioglobal/craft-colour-swatches": "1.4.0",
     "sebastianlenz/linkfield": "^1.0",
     "spicyweb/craft-embedded-assets": "2.3.4",
     "vaersaagod/matrixmate": "^1.2",
