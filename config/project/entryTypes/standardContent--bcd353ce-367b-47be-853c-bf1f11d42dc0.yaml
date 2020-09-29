@@ -30,7 +30,7 @@ fieldLayouts:
             fieldUid: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
             instructions: ''
             label: ''
-            required: '1'
+            required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
