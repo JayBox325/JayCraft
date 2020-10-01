@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## 1.0.17 -- DEV
 ### Changed
 - Making page components not required
+- Fixed alias asset directories
  
 ## 1.0.16
 ### Changed
