@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 - Making page components not required
 - Fixed alias asset directories
+
+### Added
+- Default button include
+- Default components include
+
+### Removed
+- Old icon markup
  
 ## 1.0.16
 ### Changed
