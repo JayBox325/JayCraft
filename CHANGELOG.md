@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 - Making page components not required
 - Fixed alias asset directories
+- Removed license key from repo
 
 ### Added
 - Default button include
