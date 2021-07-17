@@ -44,7 +44,7 @@ fields:
     settings:
       allowSelfRelations: false
       allowedKinds: null
-      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -54,11 +54,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -77,7 +77,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - video
-      defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -87,11 +87,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+        - 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -110,7 +110,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - video
-      defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -120,11 +120,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+        - 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false

@@ -27,7 +27,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - audio
-      defaultUploadLocationSource: 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf'
+      defaultUploadLocationSource: 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf' # Audio
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -37,11 +37,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf'
+        - 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf' # Audio
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false

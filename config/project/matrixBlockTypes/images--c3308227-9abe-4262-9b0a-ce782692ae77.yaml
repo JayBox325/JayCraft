@@ -36,7 +36,7 @@ fields:
       allowSelfRelations: false
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       defaultUploadLocationSubpath: ''
       limit: '8'
       localizeRelations: false
@@ -46,11 +46,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
