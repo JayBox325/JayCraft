@@ -1,0 +1,31 @@
+{% for block in entry.pageComponents.all() %}
+
+        {% if block.type == 'body' or block.type == 'form' %}
+            {% set theme = 'white' %}
+        {% else %}
+            {% set theme = block.theme.label|lower %}
+        {% endif %}
+
+        <section class="row row--{{ theme }} row--{{ block.type }}">
+            <div class="container">
+
+                {% switch block.type %}
+
+                    {% case 'body' %}
+                        {% include 'components/body' with {
+                            theme: 'white',
+                            body: block.body
+                        } %}
+
+                    {% case 'accordions' %}
+                        {% include 'components/accordions' with {
+                            theme: 'white',
+                            heading: block.heading,
+                            accordions: block.accordions
+                        } %}
+                        
+                {% endswitch %}
+            </div>
+        </section>
+    {% endif %}
+{% endfor %}

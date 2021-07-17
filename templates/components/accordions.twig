@@ -1,0 +1,14 @@
+{% set heading = heading ?? null %}
+{% set accordions = accordions ?? null %}
+
+<div class="accordions">
+    <h2>{{ heading }}</h2>
+    {% for accordion in accordions %}
+        <div class="accordion">
+            <h3>{{ accordion.heading }}</h3>
+            <div class="w-content">
+                {{ accordion.body }}
+            </div>
+        </div>
+    {% endfor %}
+</div>

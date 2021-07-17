@@ -34,11 +34,11 @@ return [
             '@audio' => getenv('ASSET_BASE_URL') . '/audio',
             '@documents' => getenv('ASSET_BASE_URL') . '/documents',
 
-            '@imageRoot' => dirname(__DIR__) . '/uploads/image',
-            '@videoRoot' => dirname(__DIR__) . '/uploads/video',
-            '@embedRoot' => dirname(__DIR__) . '/uploads/embed',
-            '@audioRoot' => dirname(__DIR__) . '/uploads/audio',
-            '@documentsRoot' => dirname(__DIR__) . '/uploads/documents',
+            '@imageRoot' => dirname(__DIR__) . '/public/uploads/image',
+            '@videoRoot' => dirname(__DIR__) . '/public/uploads/video',
+            '@embedRoot' => dirname(__DIR__) . '/public/uploads/embed',
+            '@audioRoot' => dirname(__DIR__) . '/public/uploads/audio',
+            '@documentsRoot' => dirname(__DIR__) . '/public/uploads/documents',
         ],
 
     ],

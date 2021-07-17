@@ -47,3 +47,4 @@ fieldLayouts:
         sortOrder: 2
 handle: siteDetails
 name: 'Site details'
+sortOrder: 2

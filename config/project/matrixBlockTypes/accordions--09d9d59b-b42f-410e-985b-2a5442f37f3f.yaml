@@ -1,11 +1,20 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   79798186-af3d-4f7d-9b37-62d7eceb2adf:
     tabs:
       -
         elements:
           -
-            fieldUid: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec
+            fieldUid: fe3a4d17-be7d-47b6-b54b-f58f068eed62 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec # Accordions
             instructions: null
             label: null
             required: true
@@ -16,7 +25,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec:
+  a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec: # Accordions
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: accordions
@@ -27,14 +37,14 @@ fields:
       columns:
         __assoc__:
           -
-            - 1156f455-4e06-4ae7-9644-b41dfc286ac1
+            - 1156f455-4e06-4ae7-9644-b41dfc286ac1 # Heading
             -
               __assoc__:
                 -
                   - width
                   - ''
           -
-            - 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2
+            - 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2 # Body
             -
               __assoc__:
                 -
@@ -51,6 +61,26 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
+  fe3a4d17-be7d-47b6-b54b-f58f068eed62: # Heading
+    columnSuffix: kvzfpbns
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
 handle: accordions
 name: Accordions
 sortOrder: 1

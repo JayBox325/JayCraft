@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   24d10f0a-7220-46c7-98d2-4c0818d07dbe:
     tabs:
       -
         elements:
           -
-            fieldUid: a8d65c69-c832-4301-902e-712b8221762f
+            fieldUid: a8d65c69-c832-4301-902e-712b8221762f # Audio
             instructions: null
             label: null
             required: true
@@ -16,7 +16,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  a8d65c69-c832-4301-902e-712b8221762f:
+  a8d65c69-c832-4301-902e-712b8221762f: # Audio
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: audio
@@ -25,9 +26,10 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds:
         - audio
-      defaultUploadLocationSource: 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf'
+      defaultUploadLocationSource: 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf' # Audio
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -37,11 +39,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06'
+      singleUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf'
+        - 'volume:d9c51571-b4e8-40c9-abaf-dab181ce75bf' # Audio
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -51,4 +53,4 @@ fields:
     type: craft\fields\Assets
 handle: audio
 name: Audio
-sortOrder: 8
+sortOrder: 7

@@ -1,0 +1,24 @@
+{% import '_macros/macros' as macro %}
+
+{# Content #}
+{% set label = label ?? 'Read more' %}
+{% set action = action ?? null %}
+
+{# Options #}
+{% set type = type ?? 'link' %}
+{% set target = target ?? false %}
+{% set full = full ?? false %}
+{% set classes = classes ?? 'border-black text-black hover:bg-black hover:text-white' %}
+{% set download = false %}
+
+{% if type == 'download' %}
+    {% set download = true %}
+    {% set type = 'link' %}
+{% endif %}
+
+{% switch type %}
+	{% case 'button' %}
+        <button {{ action }} class="btn {{ classes }}{% if full %} btn--full{% endif %}">{{ label }}</button>
+    {% case 'link' %}
+        <a href="{{ action }}" {{ macro.external(target) }} class="btn {{ classes }}{% if full %} btn--full{% endif %}" {% if download %}download{% endif %}>{{ label }}</a>
+{% endswitch %}

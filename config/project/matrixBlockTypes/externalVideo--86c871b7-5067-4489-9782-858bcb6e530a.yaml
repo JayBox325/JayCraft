@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   9784d67b-9217-4a82-8f71-1492976e4790:
     tabs:
       -
         elements:
           -
-            fieldUid: d569c65b-2978-43ee-bbe9-724c8b6823d8
+            fieldUid: d569c65b-2978-43ee-bbe9-724c8b6823d8 # External video
             instructions: null
             label: null
             required: true
@@ -16,7 +16,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  d569c65b-2978-43ee-bbe9-724c8b6823d8:
+  d569c65b-2978-43ee-bbe9-724c8b6823d8: # External video
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: externalVideo
@@ -25,10 +26,11 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds:
         - json
         - video
-      defaultUploadLocationSource: 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0'
+      defaultUploadLocationSource: 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0' # Embed
       defaultUploadLocationSubpath: ''
       limit: '1'
       localizeRelations: false
@@ -38,11 +40,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0'
+      singleUploadLocationSource: 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0' # Embed
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0'
+        - 'volume:81307dab-347a-4fb8-b528-45b18ed7d0e0' # Embed
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -52,4 +54,4 @@ fields:
     type: craft\fields\Assets
 handle: externalVideo
 name: 'External video'
-sortOrder: 7
+sortOrder: 6

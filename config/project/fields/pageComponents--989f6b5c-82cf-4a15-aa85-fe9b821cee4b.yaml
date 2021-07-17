@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: string
 fieldGroup: be866704-e9e5-489a-94b0-c7763eec7317
 handle: pageComponents
@@ -8,6 +9,7 @@ settings:
   contentTable: '{{%matrixcontent_pagecomponents}}'
   maxBlocks: ''
   minBlocks: ''
+  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

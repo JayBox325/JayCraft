@@ -1,4 +1,4 @@
-dateModified: 1601375113
+dateModified: 1626534964
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -7,47 +7,46 @@ graphql:
   publicToken:
     enabled: false
     expiryDate: null
+meta:
+  __names__:
+    1aa1db42-8bcf-4ccc-a6ed-1b410f456d11: Heading # Heading
+    1c00e1f6-a02c-4db7-b8db-22f55c91a4d2: Body # Body
+    1e844348-5f0b-45bb-832f-4f9f9cf83e41: 'Site details' # Site details
+    4e1ae64b-e8c5-47c3-bb58-10fb18e8b8a7: Homepage # Homepage
+    7d585825-db60-49fb-a08c-a267e26750a8: Body # Body
+    9cb9df85-b6be-4d7a-aead-d945ae98a3bd: Body # Body
+    09d9d59b-b42f-410e-985b-2a5442f37f3f: Accordions # Accordions
+    16dcf610-573a-409e-b404-c4aafe8ea764: Images # Images
+    19d67a4c-90d7-4ae3-a367-e59f631af8d7: Description # Description
+    86c871b7-5067-4489-9782-858bcb6e530a: 'External video' # External video
+    509bddad-7391-49e8-8e95-734bb97c6f37: Video # Video
+    696a96fe-981a-49b3-8947-b85b4ec0dc06: Video # Video
+    989f6b5c-82cf-4a15-aa85-fe9b821cee4b: 'Page components' # Page components
+    1156f455-4e06-4ae7-9644-b41dfc286ac1: Heading # Heading
+    4394a157-7f1e-4e52-afc7-ea0def9e88e8: SEO # SEO
+    027869ee-8e4f-4d06-bda5-18576335be6c: Documents # Documents
+    81307dab-347a-4fb8-b528-45b18ed7d0e0: Embed # Embed
+    85402e79-b5f4-49d2-b19b-4210804143c7: Image # Image
+    a8d65c69-c832-4301-902e-712b8221762f: Audio # Audio
+    a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec: Accordions # Accordions
+    b710ae3d-2aa0-4f17-9982-93553f967d4e: Body # Body
+    b62350b6-c1a3-4da2-b568-927ce13fdfae: Testimonial # Testimonial
+    bbaa68dc-df36-42aa-a667-b5ee4f79fd6a: 'Poster image' # Poster image
+    bcd353ce-367b-47be-853c-bf1f11d42dc0: 'Standard content' # Standard content
+    c0e6a9fb-10e8-421a-b653-ce1b4db5aeed: Button # Button
+    c3308227-9abe-4262-9b0a-ce782692ae77: Images # Images
+    cb6bce8b-a201-4cf8-a17a-7bf7729ba35d: Audio # Audio
+    d5d7809c-23f4-4811-aac0-88ea44885cf1: MP4 # MP4
+    d9c51571-b4e8-40c9-abaf-dab181ce75bf: Audio # Audio
+    d569c65b-2978-43ee-bbe9-724c8b6823d8: 'External video' # External video
+    f169be8f-3696-483e-af29-e1586f328f7f: Feature # Feature
+    fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a: WebM # WebM
+    fe3a4d17-be7d-47b6-b54b-f58f068eed62: Heading # Heading
 plugins:
   colour-swatches:
     edition: standard
     enabled: true
-    schemaVersion: 1.4.0
-  cookie-consent-banner:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.1
-    settings:
-      allow: 'Allow cookies'
-      async_js: ''
-      auto_inject: '1'
-      decline: Decline
-      defer_js: ''
-      disable_in_live_preview: '1'
-      dismiss: Accept
-      dismiss_on_scroll: '0'
-      dismiss_on_timeout: '0'
-      excluded_categories: null
-      excluded_entry_types: null
-      expiry_days: '365'
-      honour_do_not_track_header: ''
-      layout: classic
-      learn: 'Learn More'
-      learn_more_link: 'http://cookiesandyou.com/'
-      message: 'This website uses cookies to ensure you get the best experience on our website.'
-      palette: whitegreen
-      palette_banner: '#efefef'
-      palette_banner_text: '#404040'
-      palette_button: '#8ec760'
-      palette_button_text: '#ffffff'
-      palette_left_button_bg: '#8ec760'
-      palette_left_button_text: '#ffffff'
-      palette_link: '#ffffff'
-      position: bottom-left
-      preload_css: ''
-      revokable: ''
-      secure_only: ''
-      target: _blank
-      type: info
+    schemaVersion: 1.4.1.1
   cp-field-inspect:
     edition: standard
     enabled: true
@@ -61,7 +60,7 @@ plugins:
         __assoc__:
           -
             - acd97fb0-d20d-4ccb-a137-17698687e2d1
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci9ldGhlci90YWdzL3NyYy9pY29uLW1hc2suc3ZnIiwiaWQiOiJ0YWctbWFuYWdlciJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlNFTyIsInVybCI6InNlbyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXljb2xsZXR0L2pheWNyYWZ0L3ZlbmRvci9ldGhlci9zZW8vc3JjL2ljb24tbWFzay5zdmciLCJzdWJuYXYiOnsiZGFzaGJvYXJkIjp7ImxhYmVsIjoiRGFzaGJvYXJkIiwidXJsIjoic2VvIn0sInNpdGVtYXAiOnsibGFiZWwiOiJTaXRlbWFwIiwidXJsIjoic2VvL3NpdGVtYXAifSwicmVkaXJlY3RzIjp7ImxhYmVsIjoiUmVkaXJlY3RzIiwidXJsIjoic2VvL3JlZGlyZWN0cyJ9LCJzZXR0aW5ncyI6eyJsYWJlbCI6IlNldHRpbmdzIiwidXJsIjoic2VvL3NldHRpbmdzIn19fSx7InVybCI6InV0aWxpdGllcyIsImxhYmVsIjoiVXRpbGl0aWVzIiwiZm9udEljb24iOiJ0b29sIiwiYmFkZ2VDb3VudCI6MX0seyJ1cmwiOiJzZXR0aW5ncyIsImxhYmVsIjoiU2V0dGluZ3MiLCJmb250SWNvbiI6InNldHRpbmdzIn0seyJ1cmwiOiJwbHVnaW4tc3RvcmUiLCJsYWJlbCI6IlBsdWdpbiBTdG9yZSIsImZvbnRJY29uIjoicGx1Z2luIn1d
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXlzdGFjay9qYXljcmFmdC92ZW5kb3IvZXRoZXIvdGFncy9zcmMvaWNvbi1tYXNrLnN2ZyIsImlkIjoidGFnLW1hbmFnZXIifSx7ImxhYmVsIjoiQXNzZXRzIiwidXJsIjoiYXNzZXRzIiwiZm9udEljb24iOiJhc3NldHMifSx7ImxhYmVsIjoiTmF2aWdhdGlvbiIsInVybCI6Im5hdmlnYXRpb24iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5c3RhY2svamF5Y3JhZnQvdmVuZG9yL3ZlcmJiL25hdmlnYXRpb24vc3JjL2ljb24tbWFzay5zdmcifSx7ImxhYmVsIjoiU3Byb3V0IFNFTyIsInVybCI6InNwcm91dC1zZW8iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5c3RhY2svamF5Y3JhZnQvdmVuZG9yL2JhcnJlbHN0cmVuZ3RoL3Nwcm91dC1zZW8vc3JjL2ljb24tbWFzay5zdmciLCJzdWJuYXYiOnsiZ2xvYmFscyI6eyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJzcHJvdXQtc2VvL2dsb2JhbHMifSwic2V0dGluZ3MiOnsibGFiZWwiOiJTZXR0aW5ncyIsInVybCI6InNwcm91dC1zZW8vc2V0dGluZ3MifX19LHsidXJsIjoidXRpbGl0aWVzIiwibGFiZWwiOiJVdGlsaXRpZXMiLCJmb250SWNvbiI6InRvb2wiLCJiYWRnZUNvdW50IjowfSx7InVybCI6InNldHRpbmdzIiwibGFiZWwiOiJTZXR0aW5ncyIsImZvbnRJY29uIjoic2V0dGluZ3MifSx7InVybCI6InBsdWdpbi1zdG9yZSIsImxhYmVsIjoiUGx1Z2luIFN0b3JlIiwiZm9udEljb24iOiJwbHVnaW4ifV0=
   embeddedassets:
     edition: standard
     enabled: true
@@ -73,56 +72,12 @@ plugins:
   navigation:
     edition: standard
     enabled: true
-    schemaVersion: 1.0.19
+    licenseKey: Z6TOL5K4JHEHXNK71ZHAMBMB
+    schemaVersion: 1.0.21
   redactor:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
-  seo:
-    edition: standard
-    enabled: true
-    schemaVersion: 3.1.1
-    settings:
-      description: '{pageDescription|striptags}'
-      facebookAppId: ''
-      metaTemplate: ''
-      removeAlternateUrls: ''
-      robots:
-        - ''
-        - ''
-        - ''
-        - ''
-        - ''
-        - ''
-      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
-      sitemapLimit: '1000'
-      sitemapName: sitemap
-      socialImage: ''
-      title:
-        -
-          __assoc__:
-            -
-              - key
-              - '1'
-            -
-              - locked
-              - '0'
-            -
-              - template
-              - '{title}'
-        -
-          __assoc__:
-            -
-              - key
-              - '2'
-            -
-              - locked
-              - '1'
-            -
-              - template
-              - ' - {{ siteName }}'
-      titleSuffix: null
-      twitterHandle: ''
   similar:
     edition: standard
     enabled: true
@@ -138,6 +93,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.1.0
+  sprout-seo:
+    edition: lite
+    enabled: true
+    schemaVersion: 4.5.0
   super-table:
     edition: standard
     enabled: true
@@ -158,8 +117,9 @@ system:
   edition: solo
   live: true
   name: JayCraft
-  schemaVersion: 3.5.13
-  timeZone: America/Los_Angeles
+  retryDuration: null
+  schemaVersion: 3.7.7
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null

@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   d0e70e63-9251-4b8e-8944-f31af538c0e1:
     tabs:
       -
         elements:
           -
-            fieldUid: 16dcf610-573a-409e-b404-c4aafe8ea764
+            fieldUid: 16dcf610-573a-409e-b404-c4aafe8ea764 # Images
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 19d67a4c-90d7-4ae3-a367-e59f631af8d7
+            fieldUid: 19d67a4c-90d7-4ae3-a367-e59f631af8d7 # Description
             instructions: null
             label: null
             required: false
@@ -25,7 +25,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  16dcf610-573a-409e-b404-c4aafe8ea764:
+  16dcf610-573a-409e-b404-c4aafe8ea764: # Images
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: images
@@ -34,9 +35,10 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds:
         - image
-      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+      defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       defaultUploadLocationSubpath: ''
       limit: '8'
       localizeRelations: false
@@ -46,11 +48,11 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+      singleUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       singleUploadLocationSubpath: ''
       source: null
       sources:
-        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7'
+        - 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       targetSiteId: null
       useSingleFolder: false
       validateRelatedElements: false
@@ -58,7 +60,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  19d67a4c-90d7-4ae3-a367-e59f631af8d7:
+  19d67a4c-90d7-4ae3-a367-e59f631af8d7: # Description
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: description
@@ -72,11 +75,11 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
 handle: images
 name: Images
-sortOrder: 5
+sortOrder: 4

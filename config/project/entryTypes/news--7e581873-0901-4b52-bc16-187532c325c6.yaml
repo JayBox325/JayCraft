@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+            fieldUid: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
             instructions: ''
             label: ''
             required: '1'
