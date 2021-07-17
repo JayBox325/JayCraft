@@ -14,8 +14,14 @@
                     {% case 'body' %}
                         {% include 'components/body' with {
                             theme: 'white',
-                            body: block.body,
-                            sidebar: block.sidebar
+                            body: block.body
+                        } %}
+
+                    {% case 'accordions' %}
+                        {% include 'components/accordions' with {
+                            theme: 'white',
+                            heading: block.heading,
+                            accordions: block.accordions
                         } %}
                         
                 {% endswitch %}

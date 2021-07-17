@@ -1,4 +1,4 @@
-dateModified: 1626534686
+dateModified: 1626534964
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -9,15 +9,39 @@ graphql:
     expiryDate: null
 meta:
   __names__:
+    1aa1db42-8bcf-4ccc-a6ed-1b410f456d11: Heading # Heading
+    1c00e1f6-a02c-4db7-b8db-22f55c91a4d2: Body # Body
     1e844348-5f0b-45bb-832f-4f9f9cf83e41: 'Site details' # Site details
     4e1ae64b-e8c5-47c3-bb58-10fb18e8b8a7: Homepage # Homepage
+    7d585825-db60-49fb-a08c-a267e26750a8: Body # Body
+    9cb9df85-b6be-4d7a-aead-d945ae98a3bd: Body # Body
+    09d9d59b-b42f-410e-985b-2a5442f37f3f: Accordions # Accordions
+    16dcf610-573a-409e-b404-c4aafe8ea764: Images # Images
+    19d67a4c-90d7-4ae3-a367-e59f631af8d7: Description # Description
+    86c871b7-5067-4489-9782-858bcb6e530a: 'External video' # External video
+    509bddad-7391-49e8-8e95-734bb97c6f37: Video # Video
     696a96fe-981a-49b3-8947-b85b4ec0dc06: Video # Video
+    989f6b5c-82cf-4a15-aa85-fe9b821cee4b: 'Page components' # Page components
+    1156f455-4e06-4ae7-9644-b41dfc286ac1: Heading # Heading
     4394a157-7f1e-4e52-afc7-ea0def9e88e8: SEO # SEO
     027869ee-8e4f-4d06-bda5-18576335be6c: Documents # Documents
     81307dab-347a-4fb8-b528-45b18ed7d0e0: Embed # Embed
     85402e79-b5f4-49d2-b19b-4210804143c7: Image # Image
+    a8d65c69-c832-4301-902e-712b8221762f: Audio # Audio
+    a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec: Accordions # Accordions
+    b710ae3d-2aa0-4f17-9982-93553f967d4e: Body # Body
+    b62350b6-c1a3-4da2-b568-927ce13fdfae: Testimonial # Testimonial
+    bbaa68dc-df36-42aa-a667-b5ee4f79fd6a: 'Poster image' # Poster image
     bcd353ce-367b-47be-853c-bf1f11d42dc0: 'Standard content' # Standard content
+    c0e6a9fb-10e8-421a-b653-ce1b4db5aeed: Button # Button
+    c3308227-9abe-4262-9b0a-ce782692ae77: Images # Images
+    cb6bce8b-a201-4cf8-a17a-7bf7729ba35d: Audio # Audio
+    d5d7809c-23f4-4811-aac0-88ea44885cf1: MP4 # MP4
     d9c51571-b4e8-40c9-abaf-dab181ce75bf: Audio # Audio
+    d569c65b-2978-43ee-bbe9-724c8b6823d8: 'External video' # External video
+    f169be8f-3696-483e-af29-e1586f328f7f: Feature # Feature
+    fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a: WebM # WebM
+    fe3a4d17-be7d-47b6-b54b-f58f068eed62: Heading # Heading
 plugins:
   colour-swatches:
     edition: standard

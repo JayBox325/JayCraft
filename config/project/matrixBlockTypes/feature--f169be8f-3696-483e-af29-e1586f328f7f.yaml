@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   a78554ad-1ce1-4eec-bbed-2494d7b11a0e:
     tabs:
       -
         elements:
           -
-            fieldUid: 1aa1db42-8bcf-4ccc-a6ed-1b410f456d11
+            fieldUid: 1aa1db42-8bcf-4ccc-a6ed-1b410f456d11 # Heading
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b710ae3d-2aa0-4f17-9982-93553f967d4e
+            fieldUid: b710ae3d-2aa0-4f17-9982-93553f967d4e # Body
             instructions: null
             label: null
             required: true
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c0e6a9fb-10e8-421a-b653-ce1b4db5aeed
+            fieldUid: c0e6a9fb-10e8-421a-b653-ce1b4db5aeed # Button
             instructions: null
             label: null
             required: false
@@ -34,7 +34,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1aa1db42-8bcf-4ccc-a6ed-1b410f456d11:
+  1aa1db42-8bcf-4ccc-a6ed-1b410f456d11: # Heading
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: heading
@@ -48,12 +49,13 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b710ae3d-2aa0-4f17-9982-93553f967d4e:
+  b710ae3d-2aa0-4f17-9982-93553f967d4e: # Body
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: body
@@ -81,7 +83,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  c0e6a9fb-10e8-421a-b653-ce1b4db5aeed:
+  c0e6a9fb-10e8-421a-b653-ce1b4db5aeed: # Button
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: button
@@ -198,4 +201,4 @@ fields:
     type: typedlinkfield\fields\LinkField
 handle: feature
 name: Feature
-sortOrder: 4
+sortOrder: 3

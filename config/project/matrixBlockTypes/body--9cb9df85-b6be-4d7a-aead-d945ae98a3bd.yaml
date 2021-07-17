@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   e61f8fbc-bd21-4a76-961f-3e14b6b432eb:
     tabs:
       -
         elements:
           -
-            fieldUid: 7d585825-db60-49fb-a08c-a267e26750a8
+            fieldUid: 7d585825-db60-49fb-a08c-a267e26750a8 # Body
             instructions: null
             label: null
             required: true
@@ -16,7 +16,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  7d585825-db60-49fb-a08c-a267e26750a8:
+  7d585825-db60-49fb-a08c-a267e26750a8: # Body
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: body

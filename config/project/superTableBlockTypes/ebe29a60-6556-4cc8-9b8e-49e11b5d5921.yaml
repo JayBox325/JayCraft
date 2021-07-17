@@ -1,11 +1,11 @@
-field: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec
+field: a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec # Accordions
 fieldLayouts:
   0e5757c1-b1e8-4754-b00e-d0f77bb47449:
     tabs:
       -
         elements:
           -
-            fieldUid: 1156f455-4e06-4ae7-9644-b41dfc286ac1
+            fieldUid: 1156f455-4e06-4ae7-9644-b41dfc286ac1 # Heading
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2
+            fieldUid: 1c00e1f6-a02c-4db7-b8db-22f55c91a4d2 # Body
             instructions: null
             label: null
             required: true
@@ -25,7 +25,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1c00e1f6-a02c-4db7-b8db-22f55c91a4d2:
+  1c00e1f6-a02c-4db7-b8db-22f55c91a4d2: # Body
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: body
@@ -53,7 +54,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  1156f455-4e06-4ae7-9644-b41dfc286ac1:
+  1156f455-4e06-4ae7-9644-b41dfc286ac1: # Heading
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
     handle: heading
@@ -67,7 +69,7 @@ fields:
       columnType: null
       initialRows: '4'
       multiline: ''
-      placeholder: ''
+      placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none

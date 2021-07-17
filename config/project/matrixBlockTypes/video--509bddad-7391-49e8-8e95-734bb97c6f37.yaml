@@ -1,11 +1,11 @@
-field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b
+field: 989f6b5c-82cf-4a15-aa85-fe9b821cee4b # Page components
 fieldLayouts:
   9db008b5-5d2f-4947-a621-566114dc4116:
     tabs:
       -
         elements:
           -
-            fieldUid: d5d7809c-23f4-4811-aac0-88ea44885cf1
+            fieldUid: d5d7809c-23f4-4811-aac0-88ea44885cf1 # MP4
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a
+            fieldUid: fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a # WebM
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            fieldUid: bbaa68dc-df36-42aa-a667-b5ee4f79fd6a
+            fieldUid: bbaa68dc-df36-42aa-a667-b5ee4f79fd6a # Poster image
             instructions: null
             label: null
             required: false
@@ -34,7 +34,8 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  bbaa68dc-df36-42aa-a667-b5ee4f79fd6a:
+  bbaa68dc-df36-42aa-a667-b5ee4f79fd6a: # Poster image
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: posterImage
@@ -43,6 +44,7 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds: null
       defaultUploadLocationSource: 'volume:85402e79-b5f4-49d2-b19b-4210804143c7' # Image
       defaultUploadLocationSubpath: ''
@@ -66,7 +68,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  d5d7809c-23f4-4811-aac0-88ea44885cf1:
+  d5d7809c-23f4-4811-aac0-88ea44885cf1: # MP4
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: mp4
@@ -75,6 +78,7 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds:
         - video
       defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
@@ -99,7 +103,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a:
+  fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a: # WebM
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: webm
@@ -108,6 +113,7 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      allowUploads: true
       allowedKinds:
         - video
       defaultUploadLocationSource: 'volume:696a96fe-981a-49b3-8947-b85b4ec0dc06' # Video
@@ -134,4 +140,4 @@ fields:
     type: craft\fields\Assets
 handle: video
 name: Video
-sortOrder: 6
+sortOrder: 5
