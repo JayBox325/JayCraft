@@ -6,7 +6,7 @@
   "license": "Unlicense",
   "require": {
     "barrelstrength/sprout-seo": "4.6.9",
-    "craftcms/cms": "3.7.3",
+    "craftcms/cms": "3.7.14",
     "craftcms/redactor": "2.8.7",
     "ether/tags": "^1.0",
     "marionnewlevant/snitch": "3.0.4.1",
