@@ -1,5 +1,5 @@
 fieldLayouts:
-  f0e978c1-1f16-45e0-b813-d205095fd302:
+  9514ddca-f611-4aff-939c-9db35f505618:
     tabs:
       -
         elements:
@@ -23,16 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: audio
-hasUrls: true
-name: Audio
-settings:
-  path: '@audioRoot'
-sortOrder: 5
-type: craft\volumes\Local
-url: '@audio'
+handle: standardContent
+hasTitleField: true
+name: 'Standard Content'
+section: 7295f06d-67a8-4ad1-91aa-df78d4ceb502 # Site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

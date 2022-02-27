@@ -1,9 +1,0 @@
-handle: mainNavigation
-instructions: 'Build the main navigation at the top of the site. Maximum of seven for a better User Experience.'
-maxNodes: '7'
-name: 'Main navigation'
-propagateNodes: false
-sortOrder: 1
-structure:
-  maxLevels: '2'
-  uid: 8cabf43a-d9be-4462-b52f-5c3eb6e215b1

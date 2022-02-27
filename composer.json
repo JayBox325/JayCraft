@@ -5,22 +5,23 @@
   "type": "project",
   "license": "Unlicense",
   "require": {
-    "barrelstrength/sprout-seo": "4.6.9",
-    "craftcms/cms": "3.7.3",
-    "craftcms/redactor": "2.8.7",
+    "craftcms/cms": "3.7.34",
+    "craftcms/redactor": "^2.10",
     "ether/tags": "^1.0",
+    "fruitstudios/linkit": "1.1.12.1",
     "marionnewlevant/snitch": "3.0.4.1",
     "mmikkel/cp-field-inspect": "1.2.5",
+    "monachilada/craft-matrixtoolbar": "^1.0",
     "nystudio107/craft-similar": "1.1.5",
     "nystudio107/craft-typogrify": "^1.1.1",
     "ostark/craft-plugin-commands": "^1.1",
     "percipioglobal/craft-colour-swatches": "1.4.1.1",
-    "sebastianlenz/linkfield": "1.0.25",
-    "spicyweb/craft-embedded-assets": "2.7.0",
+    "spicyweb/craft-embedded-assets": "^2.10",
     "vaersaagod/matrixmate": "^1.2",
     "verbb/cp-nav": "3.0.17",
+    "verbb/field-manager": "^2.2",
     "verbb/navigation": "1.4.19",
-    "verbb/super-table": "2.6.8",
+    "verbb/super-table": "^2.7",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "autoload": {
@@ -33,6 +34,10 @@
     "optimize-autoloader": true,
     "platform": {
       "php": "7.3.8"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
     }
   },
   "scripts": {

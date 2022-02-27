@@ -1,11 +1,11 @@
-field: c32ae7fc-8956-4f92-a0c3-9d6560441ccd
+field: 1c3609c8-6750-4ecd-8f5b-da0b920d40ea # Social Networks
 fieldLayouts:
-  87f55719-a8b5-4049-a529-246f86e3c86c:
+  b1791de0-6eff-4be5-8272-0a4aa80e92f3:
     tabs:
       -
         elements:
           -
-            fieldUid: d29ea3e7-f083-4acc-a14f-9bd7e8d5edec
+            fieldUid: ec6081a9-87b4-42ae-b261-6fdd2d496956 # Network
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5e90386a-ba13-4916-b959-28901b19935f
+            fieldUid: 6b9d2e78-50a2-4344-89fe-16f091143755 # Account Url
             instructions: null
             label: null
             required: true
@@ -25,25 +25,29 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  5e90386a-ba13-4916-b959-28901b19935f:
+  6b9d2e78-50a2-4344-89fe-16f091143755: # Account Url
+    columnSuffix: yefrdgxi
     contentColumnType: string(255)
     fieldGroup: null
     handle: accountUrl
-    instructions: 'Paste your account''s full URL.'
-    name: 'Account URL'
+    instructions: 'Paste the full network url.'
+    name: 'Account Url'
     searchable: false
     settings:
       maxLength: '255'
-      placeholder: ''
+      placeholder: null
+      types:
+        - url
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Url
-  d29ea3e7-f083-4acc-a14f-9bd7e8d5edec:
+  ec6081a9-87b4-42ae-b261-6fdd2d496956: # Network
+    columnSuffix: sfvypyqo
     contentColumnType: string
     fieldGroup: null
-    handle: account
-    instructions: 'Select which account you''d like to add.'
-    name: Account
+    handle: network
+    instructions: ''
+    name: Network
     searchable: false
     settings:
       optgroups: true
@@ -52,43 +56,10 @@ fields:
           __assoc__:
             -
               - label
-              - Instagram
-            -
-              - value
-              - instagram
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
               - Facebook
             -
               - value
               - facebook
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - LinkedIn
-            -
-              - value
-              - linkedin
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Pinterest
-            -
-              - value
-              - pinterest
             -
               - default
               - ''
@@ -107,6 +78,17 @@ fields:
           __assoc__:
             -
               - label
+              - Instagram
+            -
+              - value
+              - instagram
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
               - YouTube
             -
               - value
@@ -114,9 +96,72 @@ fields:
             -
               - default
               - ''
+        -
+          __assoc__:
+            -
+              - label
+              - LinkedIn
+            -
+              - value
+              - linkedin
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Spotify
+            -
+              - value
+              - spotify
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Pinterest
+            -
+              - value
+              - pinterest
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - SoundCloud
+            -
+              - value
+              - soundcloud
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Vimeo
+            -
+              - value
+              - vimeo
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - ''
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-handle: account
-name: Account
-sortOrder: 1

@@ -1,0 +1,32 @@
+fieldLayouts:
+  052e65a8-59b8-46ca-acf2-fe7c7edf671f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4a6d78cc-1f57-4c48-b157-7320e1309ac5 # Primary Email Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Details
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 1c3609c8-6750-4ecd-8f5b-da0b920d40ea # Social Networks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Social Networks'
+        sortOrder: 2
+handle: siteDetails
+name: 'Site Details'
+sortOrder: 1

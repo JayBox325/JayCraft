@@ -1,47 +1,23 @@
-dateModified: 1626534964
+dateModified: 1645959773
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
-    1aa1db42-8bcf-4ccc-a6ed-1b410f456d11: Heading # Heading
-    1c00e1f6-a02c-4db7-b8db-22f55c91a4d2: Body # Body
-    1e844348-5f0b-45bb-832f-4f9f9cf83e41: 'Site details' # Site details
-    4e1ae64b-e8c5-47c3-bb58-10fb18e8b8a7: Homepage # Homepage
-    7d585825-db60-49fb-a08c-a267e26750a8: Body # Body
-    9cb9df85-b6be-4d7a-aead-d945ae98a3bd: Body # Body
-    09d9d59b-b42f-410e-985b-2a5442f37f3f: Accordions # Accordions
-    16dcf610-573a-409e-b404-c4aafe8ea764: Images # Images
-    19d67a4c-90d7-4ae3-a367-e59f631af8d7: Description # Description
-    86c871b7-5067-4489-9782-858bcb6e530a: 'External video' # External video
-    509bddad-7391-49e8-8e95-734bb97c6f37: Video # Video
-    696a96fe-981a-49b3-8947-b85b4ec0dc06: Video # Video
-    989f6b5c-82cf-4a15-aa85-fe9b821cee4b: 'Page components' # Page components
-    1156f455-4e06-4ae7-9644-b41dfc286ac1: Heading # Heading
-    4394a157-7f1e-4e52-afc7-ea0def9e88e8: SEO # SEO
-    027869ee-8e4f-4d06-bda5-18576335be6c: Documents # Documents
-    81307dab-347a-4fb8-b528-45b18ed7d0e0: Embed # Embed
-    85402e79-b5f4-49d2-b19b-4210804143c7: Image # Image
-    a8d65c69-c832-4301-902e-712b8221762f: Audio # Audio
-    a9fff5e5-b6e0-478d-82b6-0f6e7c7221ec: Accordions # Accordions
-    b710ae3d-2aa0-4f17-9982-93553f967d4e: Body # Body
-    b62350b6-c1a3-4da2-b568-927ce13fdfae: Testimonial # Testimonial
-    bbaa68dc-df36-42aa-a667-b5ee4f79fd6a: 'Poster image' # Poster image
-    bcd353ce-367b-47be-853c-bf1f11d42dc0: 'Standard content' # Standard content
-    c0e6a9fb-10e8-421a-b653-ce1b4db5aeed: Button # Button
-    c3308227-9abe-4262-9b0a-ce782692ae77: Images # Images
-    cb6bce8b-a201-4cf8-a17a-7bf7729ba35d: Audio # Audio
-    d5d7809c-23f4-4811-aac0-88ea44885cf1: MP4 # MP4
-    d9c51571-b4e8-40c9-abaf-dab181ce75bf: Audio # Audio
-    d569c65b-2978-43ee-bbe9-724c8b6823d8: 'External video' # External video
-    f169be8f-3696-483e-af29-e1586f328f7f: Feature # Feature
-    fb9a7b57-e9d1-46d4-b1ee-aa8038caa57a: WebM # WebM
-    fe3a4d17-be7d-47b6-b54b-f58f068eed62: Heading # Heading
+    0b9c30a7-78a4-495f-b803-a3e170b972b8: 'Standard Content' # Standard Content
+    1c3609c8-6750-4ecd-8f5b-da0b920d40ea: 'Social Networks' # Social Networks
+    4a6d78cc-1f57-4c48-b157-7320e1309ac5: 'Primary Email Address' # Primary Email Address
+    6b9d2e78-50a2-4344-89fe-16f091143755: 'Account Url' # Account Url
+    734c8496-7eca-4f66-8377-dba7854a48eb: JayCraft # JayCraft
+    7295f06d-67a8-4ad1-91aa-df78d4ceb502: Site # Site
+    a0b2c6ec-eb21-4e8c-ae50-05d81c71f3bc: Common # Common
+    a86d155b-8719-4b11-aee6-53718181198e: JayCraft # JayCraft
+    b78d27f7-2590-4387-b463-211c92af1f8c: 'Main Navigation' # Main Navigation
+    b4265419-d2d6-4b1c-b601-52a06c58c2f8: Globals # Globals
+    ec6081a9-87b4-42ae-b261-6fdd2d496956: Network # Network
+    f96e45de-1941-4b23-ab25-3e4a09bb2ea1: 'Site Details' # Site Details
+    f923a20c-43a7-4100-8a3d-7ad145c846e2: 'Footer Utility Menu' # Footer Utility Menu
 plugins:
   colour-swatches:
     edition: standard
@@ -59,12 +35,17 @@ plugins:
       originalNavHash:
         __assoc__:
           -
-            - acd97fb0-d20d-4ccb-a137-17698687e2d1
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJUYWdzIiwidXJsIjoidGFncyIsImljb24iOiIvVXNlcnMvamF5Y29sbGV0dC9TaXRlcy9qYXlzdGFjay9qYXljcmFmdC92ZW5kb3IvZXRoZXIvdGFncy9zcmMvaWNvbi1tYXNrLnN2ZyIsImlkIjoidGFnLW1hbmFnZXIifSx7ImxhYmVsIjoiQXNzZXRzIiwidXJsIjoiYXNzZXRzIiwiZm9udEljb24iOiJhc3NldHMifSx7ImxhYmVsIjoiTmF2aWdhdGlvbiIsInVybCI6Im5hdmlnYXRpb24iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5c3RhY2svamF5Y3JhZnQvdmVuZG9yL3ZlcmJiL25hdmlnYXRpb24vc3JjL2ljb24tbWFzay5zdmcifSx7ImxhYmVsIjoiU3Byb3V0IFNFTyIsInVybCI6InNwcm91dC1zZW8iLCJpY29uIjoiL1VzZXJzL2pheWNvbGxldHQvU2l0ZXMvamF5c3RhY2svamF5Y3JhZnQvdmVuZG9yL2JhcnJlbHN0cmVuZ3RoL3Nwcm91dC1zZW8vc3JjL2ljb24tbWFzay5zdmciLCJzdWJuYXYiOnsiZ2xvYmFscyI6eyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJzcHJvdXQtc2VvL2dsb2JhbHMifSwic2V0dGluZ3MiOnsibGFiZWwiOiJTZXR0aW5ncyIsInVybCI6InNwcm91dC1zZW8vc2V0dGluZ3MifX19LHsidXJsIjoidXRpbGl0aWVzIiwibGFiZWwiOiJVdGlsaXRpZXMiLCJmb250SWNvbiI6InRvb2wiLCJiYWRnZUNvdW50IjowfSx7InVybCI6InNldHRpbmdzIiwibGFiZWwiOiJTZXR0aW5ncyIsImZvbnRJY29uIjoic2V0dGluZ3MifSx7InVybCI6InBsdWdpbi1zdG9yZSIsImxhYmVsIjoiUGx1Z2luIFN0b3JlIiwiZm9udEljb24iOiJwbHVnaW4ifV0=
+            - edf96a0e-8acf-4100-9ce3-d144ed3394fc
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
   embeddedassets:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  linkit:
+    edition: standard
+    enabled: true
+    licenseKey: MCOFNFB7O55Q1XRQA8JRW0AC
+    schemaVersion: 1.0.8
   matrixmate:
     edition: standard
     enabled: true
@@ -72,7 +53,7 @@ plugins:
   navigation:
     edition: standard
     enabled: true
-    licenseKey: Z6TOL5K4JHEHXNK71ZHAMBMB
+    licenseKey: B6JEPK4VP0ROV21DE8Y8Y9T0
     schemaVersion: 1.0.21
   redactor:
     edition: standard
@@ -82,30 +63,15 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  slug-alert:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      alertMessage: 'Changing a slug can have a potentially negative effect on your site''s SEO and any bookmarked links. Create a redirect after changing a slug, or don''t change the slug at all.'
-      pluginIsActive: '1'
   snitch:
     edition: standard
     enabled: true
     schemaVersion: 2.1.0
-  sprout-seo:
-    edition: lite
-    enabled: true
-    schemaVersion: 4.5.0
   super-table:
     edition: standard
     enabled: true
     schemaVersion: 2.2.1
   tag-manager:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  typedlinkfield:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
@@ -117,12 +83,11 @@ system:
   edition: solo
   live: true
   name: JayCraft
-  retryDuration: null
-  schemaVersion: 3.7.7
-  timeZone: Europe/London
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
   defaultGroup: null
-  photoSubpath: ''
+  photoSubpath: null
   photoVolumeUid: null
   requireEmailVerification: true

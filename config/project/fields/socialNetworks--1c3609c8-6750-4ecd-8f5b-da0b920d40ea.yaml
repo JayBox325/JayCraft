@@ -1,0 +1,36 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b4265419-d2d6-4b1c-b601-52a06c58c2f8 # Globals
+handle: socialNetworks
+instructions: ''
+name: 'Social Networks'
+searchable: false
+settings:
+  columns:
+    __assoc__:
+      -
+        - 69634719-284a-4131-97f3-c1765dbb0a7f
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - deb21e5d-868e-403f-a997-68474902a793
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_socialnetworks}}'
+  fieldLayout: row
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: ''
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

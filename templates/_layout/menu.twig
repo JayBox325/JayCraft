@@ -1,7 +1,9 @@
 {% set nodes = craft.navigation.nodes().handle('mainNavigation').all() %}
 
 <span hidden id="menu-label">Main menu</span>
-<button class="hamburger" data-hamburger aria-label="Main menu" aria-labelledby="menu-label" aria-expanded="false"></button>
+<button class="hamburger" data-hamburger aria-label="Main menu" aria-labelledby="menu-label" aria-expanded="false">
+    <span class="sr-only">Open Menu</span>
+</button>
 
 <nav class="menu" data-menuaria-labelledby="menu-label">
     <ul class="menu__wrap menu__wrap--top">

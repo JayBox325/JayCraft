@@ -1,0 +1,12 @@
+columnSuffix: cpisbmwq
+contentColumnType: string
+fieldGroup: b4265419-d2d6-4b1c-b601-52a06c58c2f8 # Globals
+handle: primaryEmailAddress
+instructions: ''
+name: 'Primary Email Address'
+searchable: false
+settings:
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

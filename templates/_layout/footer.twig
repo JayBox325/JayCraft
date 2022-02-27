@@ -1,14 +1,17 @@
 {% import '_macros/macros' as macro %}
+{% set utilityNodes = craft.navigation.nodes().handle('footerUtilityMenu').all() %}
 
 <footer class="row footer">
     <div class="container">
+
         <div class="mb-6">
-            {{ macro.social(siteDetails.socialAccounts.all()) }}
+            {{ macro.social(siteDetails.socialNetworks.all()) }}
         </div>
-        {% set utilityNodes = craft.navigation.nodes().handle('footerUtilityMenu').all() %}
+
         {% if utilityNodes|length %}
             <div class="mb-6">
-                <ul class="list list--inline">
+                <h2 hidden id="util-menu-label">Utility Menu</h2>
+                <ul class="list list--inline" data-menuaria-labelledby="util-menu-label">
                     {% for node in utilityNodes %}
                         <li class="">
                             <a href="{{ node.url }}" class="">{{ node.title }}</a>
@@ -17,8 +20,10 @@
                 </ul>
             </div>
         {% endif %}
+
         <div class="w-content">
             <p>{{ now|date("Y") }} &copy; {{ siteName }}. {% if currentUser and currentUser.admin %}<a href="/admin" {{ macro.external(true) }}>Control Panel</a>{% endif %} <a href="https://jaycollett.co" {{ macro.external(true) }}>Site Credits</a></p>
         </div>
+
     </div>
 </footer>
