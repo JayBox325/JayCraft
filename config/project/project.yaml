@@ -1,4 +1,4 @@
-dateModified: 1645959773
+dateModified: 1645964017
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -6,11 +6,15 @@ email:
 meta:
   __names__:
     0b9c30a7-78a4-495f-b803-a3e170b972b8: 'Standard Content' # Standard Content
+    1bf85d47-1766-405b-a7a9-1d8a6985d1a3: 'Alt Text' # Alt Text
     1c3609c8-6750-4ecd-8f5b-da0b920d40ea: 'Social Networks' # Social Networks
     4a6d78cc-1f57-4c48-b157-7320e1309ac5: 'Primary Email Address' # Primary Email Address
     6b9d2e78-50a2-4344-89fe-16f091143755: 'Account Url' # Account Url
+    14b434ef-d992-4dea-a7d3-0d2e59a61c11: Uploads # Uploads
+    84a829e7-98fe-429f-9ab4-33e75d521955: Default # Default
     734c8496-7eca-4f66-8377-dba7854a48eb: JayCraft # JayCraft
     7295f06d-67a8-4ad1-91aa-df78d4ceb502: Site # Site
+    33342372-1eb6-4e99-9f15-cf18b2c29a89: Assets # Assets
     a0b2c6ec-eb21-4e8c-ae50-05d81c71f3bc: Common # Common
     a86d155b-8719-4b11-aee6-53718181198e: JayCraft # JayCraft
     b78d27f7-2590-4387-b463-211c92af1f8c: 'Main Navigation' # Main Navigation
@@ -36,7 +40,7 @@ plugins:
         __assoc__:
           -
             - edf96a0e-8acf-4100-9ce3-d144ed3394fc
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlVuc3BsYXNoIEltYWdlcyIsInVybCI6InNwbGFzaGluZy1pbWFnZXMiLCJpY29uIjoiL2FwcC92ZW5kb3Ivc3R1ZGlvZXNwcmVzc28vY3JhZnQtc3BsYXNoaW5naW1hZ2VzL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
   embeddedassets:
     edition: standard
     enabled: true
@@ -67,6 +71,14 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.1.0
+  splashing-images:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
+    settings:
+      destination: '1'
+      folder: unsplash
+      pluginLabel: ''
   super-table:
     edition: standard
     enabled: true

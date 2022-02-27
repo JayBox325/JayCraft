@@ -1,0 +1,12 @@
+currLabel: 'Plugin Store'
+customIcon: ''
+enabled: true
+handle: plugin-store
+icon: plugin
+layout: 84a829e7-98fe-429f-9ab4-33e75d521955 # Default
+newWindow: false
+order: 13
+prevLabel: 'Plugin Store'
+prevUrl: plugin-store
+type: ''
+url: plugin-store

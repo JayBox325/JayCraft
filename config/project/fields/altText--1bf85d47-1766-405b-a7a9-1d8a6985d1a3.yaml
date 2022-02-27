@@ -1,0 +1,19 @@
+columnSuffix: wsbceffg
+contentColumnType: text
+fieldGroup: 33342372-1eb6-4e99-9f15-cf18b2c29a89 # Assets
+handle: altText
+instructions: ''
+name: 'Alt Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

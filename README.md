@@ -22,6 +22,7 @@ Install with `composer create-project JayBox325/JayCraft .`
 - *Field Manager* for organising and removing any unused fields.
 - *Matrix Toolbar* to improve managing matrix fields.
 - *Super Table* adds the ability to have nested matrix fields. Use sparingly.
+- *Splashing Images* for Unsplash Images.
 
 \* doesn't support GraphQL.
 

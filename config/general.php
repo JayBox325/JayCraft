@@ -28,17 +28,8 @@ return [
 
         // CMS Aliases
         'aliases' => [
-            '@image' => getenv('ASSET_BASE_URL') . '/image',
-            '@video' => getenv('ASSET_BASE_URL') . '/video',
-            '@embed' => getenv('ASSET_BASE_URL') . '/embed',
-            '@audio' => getenv('ASSET_BASE_URL') . '/audio',
-            '@documents' => getenv('ASSET_BASE_URL') . '/documents',
-
-            '@imageRoot' => dirname(__DIR__) . '/public/uploads/image',
-            '@videoRoot' => dirname(__DIR__) . '/public/uploads/video',
-            '@embedRoot' => dirname(__DIR__) . '/public/uploads/embed',
-            '@audioRoot' => dirname(__DIR__) . '/public/uploads/audio',
-            '@documentsRoot' => dirname(__DIR__) . '/public/uploads/documents',
+            '@uploads' => getenv('ASSET_BASE_URL'),
+            '@uploadsRoot' => dirname(__DIR__) . '/public/uploads'
         ],
 
     ],
@@ -47,10 +38,6 @@ return [
     'dev' => [
         // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
         'devMode' => true,
-
-        // Mamp database exports
-        'backupCommand' => getenv('BACKUP_COMMAND'),
-        'restoreCommand' => getenv('RESTORE_COMMAND'),
     ],
 
     // Staging environment settings

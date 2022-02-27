@@ -1,0 +1,12 @@
+currLabel: Entries
+customIcon: ''
+enabled: true
+handle: entries
+icon: section
+layout: 84a829e7-98fe-429f-9ab4-33e75d521955 # Default
+newWindow: false
+order: 3
+prevLabel: Entries
+prevUrl: entries
+type: ''
+url: entries

@@ -1,0 +1,12 @@
+currLabel: Tags
+customIcon: ''
+enabled: true
+handle: tags
+icon: /app/vendor/ether/tags/src/icon-mask.svg
+layout: 84a829e7-98fe-429f-9ab4-33e75d521955 # Default
+newWindow: false
+order: 6
+prevLabel: Tags
+prevUrl: tags
+type: ''
+url: tags
