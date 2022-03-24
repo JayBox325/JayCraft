@@ -1,4 +1,4 @@
-dateModified: 1645964017
+dateModified: 1645968495
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -26,7 +26,7 @@ plugins:
   colour-swatches:
     edition: standard
     enabled: true
-    schemaVersion: 1.4.1.1
+    schemaVersion: 1.4.2
   cp-field-inspect:
     edition: standard
     enabled: true

@@ -26,6 +26,10 @@ Install with `composer create-project JayBox325/JayCraft .`
 
 \* doesn't support GraphQL.
 
+## Updating
+
+Use `nitro ssh` to enter your environment then run `./craft update all` within the nitro box.
+
 
 ## Craft commands
 
