@@ -1,4 +1,4 @@
-dateModified: 1645968495
+dateModified: 1648159991
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
@@ -9,6 +9,7 @@ meta:
     1bf85d47-1766-405b-a7a9-1d8a6985d1a3: 'Alt Text' # Alt Text
     1c3609c8-6750-4ecd-8f5b-da0b920d40ea: 'Social Networks' # Social Networks
     4a6d78cc-1f57-4c48-b157-7320e1309ac5: 'Primary Email Address' # Primary Email Address
+    5b16f3a0-d022-459c-b557-2b314d0a38e1: 'Public Schema' # Public Schema
     6b9d2e78-50a2-4344-89fe-16f091143755: 'Account Url' # Account Url
     14b434ef-d992-4dea-a7d3-0d2e59a61c11: Uploads # Uploads
     84a829e7-98fe-429f-9ab4-33e75d521955: Default # Default
@@ -40,6 +41,9 @@ plugins:
         __assoc__:
           -
             - edf96a0e-8acf-4100-9ce3-d144ed3394fc
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlVuc3BsYXNoIEltYWdlcyIsInVybCI6InNwbGFzaGluZy1pbWFnZXMiLCJpY29uIjoiL2FwcC92ZW5kb3Ivc3R1ZGlvZXNwcmVzc28vY3JhZnQtc3BsYXNoaW5naW1hZ2VzL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
+          -
+            - db58d330-34b2-40f6-b386-5e31d3850e7b
             - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlVuc3BsYXNoIEltYWdlcyIsInVybCI6InNwbGFzaGluZy1pbWFnZXMiLCJpY29uIjoiL2FwcC92ZW5kb3Ivc3R1ZGlvZXNwcmVzc28vY3JhZnQtc3BsYXNoaW5naW1hZ2VzL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
   embeddedassets:
     edition: standard
