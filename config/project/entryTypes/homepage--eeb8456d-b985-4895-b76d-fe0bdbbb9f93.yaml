@@ -1,5 +1,5 @@
 fieldLayouts:
-  9514ddca-f611-4aff-939c-9db35f505618:
+  cccf2e51-0c4a-4de8-a32f-42e8bdea8239:
     tabs:
       -
         elements:
@@ -24,7 +24,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: f3a9febd-0f65-46d8-b3bc-2e3bfa1d1484
+            uid: 879df627-dfbf-4b0f-ac8c-45a8808db488
             warning: null
             width: 100
           -
@@ -34,16 +34,16 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 60fa4139-9421-4df5-887d-b8266b0e979a
+            uid: 6bccbf0f-aab9-4e59-9b22-768f59b0ba40
             warning: null
             width: 100
         name: Content
-        uid: ad22c585-7bdc-4d7d-84b9-3fae824be4ff
-handle: standardContent
+        uid: 9d5e893f-4a63-4567-86f6-d0f6e5c060e2
+handle: homepage
 hasTitleField: true
-name: 'Standard Content'
+name: Homepage
 section: 7295f06d-67a8-4ad1-91aa-df78d4ceb502 # Site
-sortOrder: 1
+sortOrder: 2
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

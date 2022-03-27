@@ -1,11 +1,20 @@
-dateModified: 1648159991
+dateModified: 1648164153
 email:
   fromEmail: hello@jaycollett.co
   fromName: JayCraft
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@uploadsRoot'
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
 meta:
   __names__:
     0b9c30a7-78a4-495f-b803-a3e170b972b8: 'Standard Content' # Standard Content
+    1b332dd3-a72e-41bc-af7f-2cb86bd9e378: 'Page Components' # Page Components
     1bf85d47-1766-405b-a7a9-1d8a6985d1a3: 'Alt Text' # Alt Text
     1c3609c8-6750-4ecd-8f5b-da0b920d40ea: 'Social Networks' # Social Networks
     4a6d78cc-1f57-4c48-b157-7320e1309ac5: 'Primary Email Address' # Primary Email Address
@@ -17,92 +26,25 @@ meta:
     7295f06d-67a8-4ad1-91aa-df78d4ceb502: Site # Site
     33342372-1eb6-4e99-9f15-cf18b2c29a89: Assets # Assets
     a0b2c6ec-eb21-4e8c-ae50-05d81c71f3bc: Common # Common
+    a4e7f732-b12b-4bce-88ec-70168a13a380: 'Body Text' # Body Text
     a86d155b-8719-4b11-aee6-53718181198e: JayCraft # JayCraft
+    b9d8713f-994f-4e41-82de-a3254d0ebed0: Heading # Heading
     b78d27f7-2590-4387-b463-211c92af1f8c: 'Main Navigation' # Main Navigation
     b4265419-d2d6-4b1c-b601-52a06c58c2f8: Globals # Globals
+    c04c179b-d8ee-4673-a64e-0a7ae13ebfd3: Body # Body
     ec6081a9-87b4-42ae-b261-6fdd2d496956: Network # Network
+    eeb8456d-b985-4895-b76d-fe0bdbbb9f93: Homepage
     f96e45de-1941-4b23-ab25-3e4a09bb2ea1: 'Site Details' # Site Details
     f923a20c-43a7-4100-8a3d-7ad145c846e2: 'Footer Utility Menu' # Footer Utility Menu
-plugins:
-  colour-swatches:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.4.2
-  cp-field-inspect:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  cp-nav:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.0.7
-    settings:
-      originalNavHash:
-        __assoc__:
-          -
-            - edf96a0e-8acf-4100-9ce3-d144ed3394fc
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlVuc3BsYXNoIEltYWdlcyIsInVybCI6InNwbGFzaGluZy1pbWFnZXMiLCJpY29uIjoiL2FwcC92ZW5kb3Ivc3R1ZGlvZXNwcmVzc28vY3JhZnQtc3BsYXNoaW5naW1hZ2VzL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
-          -
-            - db58d330-34b2-40f6-b386-5e31d3850e7b
-            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6Ikdsb2JhbHMiLCJ1cmwiOiJnbG9iYWxzIiwiZm9udEljb24iOiJnbG9iZSJ9LHsibGFiZWwiOiJBc3NldHMiLCJ1cmwiOiJhc3NldHMiLCJmb250SWNvbiI6ImFzc2V0cyJ9LHsibGFiZWwiOiJOYXZpZ2F0aW9uIiwidXJsIjoibmF2aWdhdGlvbiIsImljb24iOiIvYXBwL3ZlbmRvci92ZXJiYi9uYXZpZ2F0aW9uL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlVuc3BsYXNoIEltYWdlcyIsInVybCI6InNwbGFzaGluZy1pbWFnZXMiLCJpY29uIjoiL2FwcC92ZW5kb3Ivc3R1ZGlvZXNwcmVzc28vY3JhZnQtc3BsYXNoaW5naW1hZ2VzL3NyYy9pY29uLW1hc2suc3ZnIn0seyJsYWJlbCI6IlRhZ3MiLCJ1cmwiOiJ0YWdzIiwiaWNvbiI6Ii9hcHAvdmVuZG9yL2V0aGVyL3RhZ3Mvc3JjL2ljb24tbWFzay5zdmciLCJpZCI6InRhZy1tYW5hZ2VyIn0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjB9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
-  embeddedassets:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  linkit:
-    edition: standard
-    enabled: true
-    licenseKey: MCOFNFB7O55Q1XRQA8JRW0AC
-    schemaVersion: 1.0.8
-  matrixmate:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  navigation:
-    edition: standard
-    enabled: true
-    licenseKey: B6JEPK4VP0ROV21DE8Y8Y9T0
-    schemaVersion: 1.0.21
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
-  similar:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  snitch:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.1.0
-  splashing-images:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.2.0
-    settings:
-      destination: '1'
-      folder: unsplash
-      pluginLabel: ''
-  super-table:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.2.1
-  tag-manager:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  typogrify:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
   name: JayCraft
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.7
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: null
   photoVolumeUid: null

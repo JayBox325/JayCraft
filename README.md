@@ -30,6 +30,15 @@ Install with `composer create-project JayBox325/JayCraft .`
 
 Use `nitro ssh` to enter your environment then run `./craft update all` within the nitro box.
 
+## Importing the DB
+
+Login details:
+
+Username: admin
+Password: password
+
+Make sure to change these login details ASAP.
+
 
 ## Craft commands
 

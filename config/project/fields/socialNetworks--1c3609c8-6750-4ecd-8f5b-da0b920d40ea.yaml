@@ -6,31 +6,9 @@ instructions: ''
 name: 'Social Networks'
 searchable: false
 settings:
-  columns:
-    __assoc__:
-      -
-        - 69634719-284a-4131-97f3-c1765dbb0a7f
-        -
-          __assoc__:
-            -
-              - width
-              - ''
-      -
-        - deb21e5d-868e-403f-a997-68474902a793
-        -
-          __assoc__:
-            -
-              - width
-              - ''
-  contentTable: '{{%stc_socialnetworks}}'
-  fieldLayout: row
-  maxRows: ''
-  minRows: ''
-  placeholderKey: null
-  propagationKeyFormat: null
-  propagationMethod: all
-  selectionLabel: ''
-  staticField: ''
+  errorMessage: 'Unable to find component class ''verbb\supertable\fields\SuperTableField''.'
+  expectedType: verbb\supertable\fields\SuperTableField
+  settings: '{"columns":{"69634719-284a-4131-97f3-c1765dbb0a7f":{"width":""},"deb21e5d-868e-403f-a997-68474902a793":{"width":""}},"contentTable":"{{%stc_socialnetworks}}","fieldLayout":"row","maxRows":"","minRows":"","placeholderKey":null,"propagationKeyFormat":null,"propagationMethod":"all","selectionLabel":"","staticField":""}'
 translationKeyFormat: null
-translationMethod: site
-type: verbb\supertable\fields\SuperTableField
+translationMethod: none
+type: craft\fields\MissingField
