@@ -4,7 +4,7 @@ handle: site
 name: Site
 propagationMethod: all
 siteSettings:
-  734c8496-7eca-4f66-8377-dba7854a48eb: # JayCraft
+  734c8496-7eca-4f66-8377-dba7854a48eb: # Arksen Overland
     enabledByDefault: true
     hasUrls: true
     template: site/_index.twig

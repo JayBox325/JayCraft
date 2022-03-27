@@ -1,0 +1,22 @@
+dateModified: 1648367558
+email:
+  fromEmail: hello@jaycollett.co
+  fromName: JayCraft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    45367fa9-c9f7-46a2-9053-65c88b9f312f: Common
+    b3ebd713-3b30-4a61-bb8c-4d838df499ae: JayCraft
+    dd1fa92a-59bc-4789-ac35-e58c548fc72a: JayCraft
+system:
+  edition: solo
+  live: true
+  name: JayCraft
+  schemaVersion: 4.0.0.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

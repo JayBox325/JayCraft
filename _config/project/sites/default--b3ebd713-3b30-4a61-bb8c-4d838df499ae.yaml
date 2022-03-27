@@ -1,9 +1,8 @@
 baseUrl: $PRIMARY_SITE_URL
-enabled: true
 handle: default
 hasUrls: true
 language: en-GB
-name: 'Arksen Overland'
+name: JayCraft
 primary: true
-siteGroup: a86d155b-8719-4b11-aee6-53718181198e # JayCraft
+siteGroup: dd1fa92a-59bc-4789-ac35-e58c548fc72a
 sortOrder: 1

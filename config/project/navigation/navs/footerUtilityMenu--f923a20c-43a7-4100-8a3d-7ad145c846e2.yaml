@@ -21,7 +21,7 @@ permissions:
     enabled: '1'
 propagateNodes: false
 siteSettings:
-  734c8496-7eca-4f66-8377-dba7854a48eb: null # JayCraft
+  734c8496-7eca-4f66-8377-dba7854a48eb: null # Arksen Overland
 sortOrder: 2
 structure:
   maxLevels: '1'
